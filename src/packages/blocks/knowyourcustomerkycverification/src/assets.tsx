@@ -1,0 +1,13 @@
+export const imgChecked = require("../assets/checked.png");
+export const imgUnChecked = require("../assets/unChecked.png");
+export const imgInfo = require("../assets/info.png");
+export const imgVerified = require("../assets/verified.png");
+export const imgArrowOutward = require("../assets/arrowOutward.png");
+export const Success = require("../assets/verified.png");
+export const imgBackArrow = require("../assets/arrow_back.png");
+export const rightArrowBlueImg = require("../assets/rightArrowBlue.png");
+export const rightArrow = require("../assets/rightArrow.png");
+export const upArrowImg = require("../assets/upArrow.png");
+export const downArrowBlackImg = require("../assets/downArrowBlack.png");
+export const imgCheckbox = require("../assets/imgCheckbox.png");
+export const removeImg = require("../assets/remove.png");

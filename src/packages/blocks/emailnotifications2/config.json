@@ -1,0 +1,65 @@
+{
+  "id": "emailnotifications2",
+  "version": "1.3.3",
+  "status": "preAlpha",
+  "path": "./packages/blocks/emailnotifications2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Emailnotifications2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Emailnotifications2": {
+        "file": "Emailnotifications2.tsx",
+        "extends": "Emailnotifications2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Emailnotifications2Controller",
+            "path": "./Emailnotifications2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Emailnotifications2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Emailnotifications2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Emailnotifications2": {
+        "file": "Emailnotifications2.web.tsx",
+        "extends": "Emailnotifications2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Emailnotifications2Controller",
+            "path": "./Emailnotifications2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Emailnotifications2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

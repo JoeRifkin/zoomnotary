@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPasswordOTP-scenario.steps.tsx">
+        <testCase name="ForgotPasswordOTP User navigates to ForgotPasswordOTP" duration="330"/>
+        <testCase name="ForgotPasswordOTP User navigates to ForgotPasswordOTP in web" duration="94"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/NewPassword-scenario.steps.tsx">
+        <testCase name="NewPassword User navigates to NewPassword" duration="406"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPassword-scenario.steps.tsx">
+        <testCase name="ForgotPassword User navigates to ForgotPassword" duration="312"/>
+        <testCase name="ForgotPassword Style when the timer is 0" duration="104"/>
+        <testCase name="ForgotPassword Resend OTP Button Behavior when timer is 0" duration="95"/>
+        <testCase name="ForgotPassword User presses the Go Back button on the OTP screen" duration="106"/>
+        <testCase name="ForgotPassword Timer countdown starts and stops correctly" duration="93"/>
+        <testCase name="ForgotPassword Valid email OTP token response" duration="86"/>
+        <testCase name="ForgotPassword Invalid email OTP token response" duration="84"/>
+        <testCase name="ForgotPassword Valid OTP auth confirmation response" duration="83"/>
+        <testCase name="ForgotPassword Valid request change password response" duration="84"/>
+        <testCase name="ForgotPassword Password length is less than 8 characters" duration="86"/>
+        <testCase name="ForgotPassword Password length is 8 or more characters but missing complexity" duration="85"/>
+        <testCase name="ForgotPassword Password meets all criteria" duration="78"/>
+        <testCase name="ForgotPassword Password fails the third validation criteria" duration="82"/>
+    </file>
+</testExecutions>

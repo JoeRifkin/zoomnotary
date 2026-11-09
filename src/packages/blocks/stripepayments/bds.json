@@ -1,0 +1,25 @@
+{
+  "name": "StripePayments",
+  "id": "StripePayments",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "2.0.4",
+  "pages": [],
+  "mobile": [
+    {
+      "StripePaymentsComponentView": {
+        "label": "StripePaymentsComponentView"
+      }
+    },
+    {
+      "StripePaymentsView": {
+        "label": "StripePaymentsView"
+      }
+    }
+  ]
+}

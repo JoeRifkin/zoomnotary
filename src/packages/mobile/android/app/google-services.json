@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177331222591",
+    "project_id": "zoomnot-d4366",
+    "storage_bucket": "zoomnot-d4366.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177331222591:android:ae10454d1e39d70c9ce08a",
+        "android_client_info": {
+          "package_name": "com.ZoomNotary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7pR-vj0WDhT3jJLS76PkrA0-7VpThVZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Analytics",
+  "id": "Analytics",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "2.1.2",
+  "pages": [
+    {
+      "Analytics": {
+        "hotspots": [
+          {
+            "type": "input",
+            "id": "txtInput",
+            "options": [
+              "mandatory",
+              "enabled"
+            ]
+          },
+          {
+            "type": "input",
+            "id": "btnShowHide",
+            "options": [
+              "mandatory",
+              "enabled"
+            ]
+          },
+          {
+            "type": "output",
+            "id": "txtSaved",
+            "options": []
+          },
+          {
+            "type": "navigation",
+            "id": "btnExample",
+            "options": [
+              "target",
+              "navigationTransition",
+              "navigationType",
+              "enabled"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "Analytics": {
+        "label": "Analytics"
+      }
+    }
+  ]
+}

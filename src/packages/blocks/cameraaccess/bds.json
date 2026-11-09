@@ -1,0 +1,19 @@
+{
+  "name": "CameraAccess",
+  "id": "CameraAccess",
+  "platform": [
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "2.1.2",
+  "pages": [],
+  "mobile": [
+    {
+      "CameraAccess": {
+        "label": "CameraAccess"
+      }
+    }
+  ]
+}

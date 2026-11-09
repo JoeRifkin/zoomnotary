@@ -1,0 +1,87 @@
+{
+  "id": "GoogleCalendarSync",
+  "version": "2.1.3",
+  "status": "development",
+  "path": "./packages/blocks/googlecalendarsync",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleCalendarSync"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-material-dropdown-v2\": \"^0.12.0\"",
+      "\"react-native-paper\": \"^5.9.1\"",
+      "\"@fullcalendar/core\": \"^5.11.5\"",
+      "\"@fullcalendar/daygrid\": \"^5.11.5\"",
+      "\"@fullcalendar/interaction\": \"^5.11.5\"",
+      "\"@fullcalendar/react\": \"^5.11.5\"",
+      "\"gapi-script\": \"1.2.0\"",
+      "\"@react-native-community/google-signin\": \"^5.0.0\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleCalendarSync": {
+        "file": "GoogleCalendarSync.tsx",
+        "extends": "GoogleCalendarSyncController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleCalendarSyncController",
+            "path": "./GoogleCalendarSyncController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleCalendarSyncController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleCalendarSync"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-material-dropdown-v2\": \"^0.12.0\"",
+      "\"react-native-paper\": \"^5.9.1\"",
+      "\"@fullcalendar/core\": \"^5.11.5\"",
+      "\"@fullcalendar/daygrid\": \"^5.11.5\"",
+      "\"@fullcalendar/interaction\": \"^5.11.5\"",
+      "\"@fullcalendar/react\": \"^5.11.5\"",
+      "\"gapi-script\": \"1.2.0\"",
+      "\"@react-native-community/google-signin\": \"^5.0.0\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleCalendarSync": {
+        "file": "GoogleCalendarSync.web.tsx",
+        "extends": "GoogleCalendarSyncController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleCalendarSyncController",
+            "path": "./GoogleCalendarSyncController.web"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleCalendarSyncController.web"
+          }
+        ]
+      }
+    }
+  }
+}

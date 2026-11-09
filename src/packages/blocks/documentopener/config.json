@@ -1,0 +1,69 @@
+{
+  "id": "DocumentOpener",
+  "version": "2.1.5",
+  "status": "",
+  "path": "./packages/blocks/DocumentOpener",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DocumentOpener"
+    ],
+    "assembler-dependencies": [
+      "\"react-doc-viewer\": \"0.1.5\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DocumentOpener": {
+        "file": "DocumentOpener.tsx",
+        "extends": "DocumentOpenerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentOpenerController",
+            "path": "./DocumentOpenerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentOpenerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DocumentOpener"
+    ],
+    "assembler-dependencies": [
+      "\"react-doc-viewer\": \"0.1.5\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DocumentOpenerBlock": {
+        "file": "DocumentOpenerBlock.tsx",
+        "extends": "DocumentOpenerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentOpenerController",
+            "path": "./DocumentOpenerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentOpenerController"
+          }
+        ]
+      }
+    }
+  }
+}

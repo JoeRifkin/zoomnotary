@@ -1,0 +1,65 @@
+{
+  "id": "cfzoomintegration92",
+  "version": "1.3.3",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfzoomintegration92",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfzoomintegration92"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfzoomintegration92": {
+        "file": "Cfzoomintegration92.tsx",
+        "extends": "Cfzoomintegration92Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfzoomintegration92Controller",
+            "path": "./Cfzoomintegration92Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfzoomintegration92Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfzoomintegration92"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfzoomintegration92": {
+        "file": "Cfzoomintegration92.web.tsx",
+        "extends": "Cfzoomintegration92Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfzoomintegration92Controller",
+            "path": "./Cfzoomintegration92Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfzoomintegration92Controller"
+          }
+        ]
+      }
+    }
+  }
+}

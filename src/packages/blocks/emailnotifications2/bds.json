@@ -1,0 +1,20 @@
+{
+  "id": "emailnotifications2",
+  "label": "emailnotifications2",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "1.3.3",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [
+    {
+      "Emailnotifications2": {
+        "label": "Emailnotifications2"
+      }
+    }
+  ],
+  "web": []
+}

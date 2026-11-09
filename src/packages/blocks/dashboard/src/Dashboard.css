@@ -1,0 +1,15 @@
+.progress-0 >.MuiLinearProgress-bar1Determinate{
+    background-color: purple !important;
+}
+
+.progress-1 >.MuiLinearProgress-bar1Determinate{
+    background-color: yellow !important;
+}
+
+.progress-2 >.MuiLinearProgress-bar1Determinate{
+    background-color: rgb(182, 82, 98) !important;
+}
+
+.progress-3 >.MuiLinearProgress-bar1Determinate{
+    background-color: green !important;
+}

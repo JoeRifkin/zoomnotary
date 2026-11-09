@@ -1,0 +1,82 @@
+{
+  "id": "dashboard",
+  "version": "0.0.1",
+  "certificationType": "lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/dashboard",
+  "assembler-adapters": [
+    "DashboardAdapter",
+    "NewNotaryRequestAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard", 
+      "NewNotaryRequest"
+    ],
+    "assembler-messages": {
+      "output": {
+        "accountLogInButton": [
+          "LoginMobileSuccessMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationDashboardMessage", 
+          "NavigationNewNotaryRequestMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [
+      "\"react-native-responsive-screen\": \"1.4.2\"",
+      "\"react-native-responsive-fontsize\": \"0.5.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard": {
+        "file": "Dashboard.tsx",
+        "extends": "DashboardController",
+        "imports": [
+          {
+            "value": "DashboardController",
+            "path": "./DashboardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DashboardController"
+          }
+        ]
+      },
+      "NewNotaryRequest": {
+        "file": "NewNotaryRequest.tsx",
+        "extends": "NewNotaryRequestController",
+        "imports": [
+          {
+            "value": "NewNotaryRequestController",
+            "path": "./NewNotaryRequestController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./NewNotaryRequestController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-responsive-screen\": \"1.4.2\"",
+      "\"react-native-responsive-fontsize\": \"0.5.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

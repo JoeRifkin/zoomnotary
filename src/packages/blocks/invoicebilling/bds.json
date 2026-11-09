@@ -1,0 +1,14 @@
+{
+  "id": "InvoiceBilling",
+  "label": "InvoiceBilling",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "6.0.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [],
+  "web": []
+}

@@ -1,0 +1,53 @@
+export default {
+  data: [
+    {
+      id: "1",
+      type: "project",
+      attributes: {
+        id: 1,
+        project_name: "Training Management App",
+        start_date: "2020-01-01",
+        end_date: "2020-06-06",
+        add_members: null,
+        url: "url",
+        description: "descriptions",
+        make_projects_public: true,
+        profile_id: 1,
+        associated_projects: [],
+      },
+    },
+    {
+      id: "2",
+      type: "project",
+      attributes: {
+        id: 2,
+        project_name: "Training Management App",
+        start_date: "2020-01-01",
+        end_date: "2020-06-06",
+        add_members: null,
+        url: "url",
+        description: "descriptions",
+        make_projects_public: true,
+        profile_id: 1,
+        associated_projects: ["Project 1", "Project 2"],
+      },
+    },
+    {
+      id: "3",
+      type: "project",
+      attributes: {
+        id: 3,
+        project_name: "Updated Project name",
+        start_date: "2022-01-01",
+        end_date: "2022-02-02",
+        add_members: null,
+        url: "url",
+        description: "Updated description",
+        make_projects_public: true,
+        profile_id: 1,
+        associated_projects: ["Updated Associated Project", "Second One"],
+      },
+    },
+  ],
+  meta: { message: "Successfully Loaded" },
+};

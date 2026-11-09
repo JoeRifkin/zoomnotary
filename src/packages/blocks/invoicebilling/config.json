@@ -1,0 +1,51 @@
+{
+  "id": "InvoiceBilling",
+  "version": "6.0.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InvoiceBilling",
+  "certificationType": "lite",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "assembler-file-alias": {
+    "webConfigOverrides": "src/packages/web/config-overrides.js"
+  },
+  "assembler-boilerplate": {
+    "webConfigOverrides": {
+      "appIncludes": {
+        "modifications": [
+          "resolveApp('../../node_modules/react-native-elements'),"
+        ],
+        "merge-strategy": "deduplication"
+      }
+    }
+  }
+}

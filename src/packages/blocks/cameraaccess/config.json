@@ -1,0 +1,65 @@
+{
+  "id": "CameraAccess",
+  "version": "2.1.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CameraAccess",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CameraAccess"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CameraAccess": {
+        "file": "CameraAccess.tsx",
+        "extends": "CameraAccessController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CameraAccessController",
+            "path": "./CameraAccessController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CameraAccessController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CameraAccess"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CameraAccess": {
+        "file": "CameraAccess.web.tsx",
+        "extends": "CameraAccessController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CameraAccessController",
+            "path": "./CameraAccessController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CameraAccessController"
+          }
+        ]
+      }
+    }
+  }
+}

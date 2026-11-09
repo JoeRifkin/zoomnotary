@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/dashboard.web.steps.tsx">
+        <testCase name="Dashboard User navigates to Dashboard" duration="88"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/continueAsGuestDashboard.steps.tsx">
+        <testCase name="continueAsGuestDashboard Open the login/signup modal via button press" duration="413"/>
+        <testCase name="continueAsGuestDashboard Open the login/signup modal via bottom tab change" duration="60"/>
+        <testCase name="continueAsGuestDashboard Close the login/signup modal via button press" duration="52"/>
+        <testCase name="continueAsGuestDashboard Book Now button is pressed" duration="56"/>
+        <testCase name="continueAsGuestDashboard Log In button is pressed" duration="56"/>
+        <testCase name="continueAsGuestDashboard User clicks the Sign Up button" duration="60"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/Calendar.steps.tsx">
+        <testCase name="Calendar Successfully sign in with Microsoft" duration="131"/>
+        <testCase name="Calendar Sign-in process throws an error" duration="42"/>
+        <testCase name="Calendar User navigates to Calendar" duration="151"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/dashboard.steps.tsx">
+        <testCase name="dashboard User navigates to dashboard" duration="497"/>
+        <testCase name="dashboard Handling session response successfully" duration="102"/>
+        <testCase name="dashboard Handle REST API response" duration="65"/>
+        <testCase name="dashboard Sorting and filtering dashboard data" duration="59"/>
+        <testCase name="dashboard Sorting and filtering new request data" duration="99"/>
+        <testCase name="dashboard Display alert when function call which is not complete" duration="62"/>
+        <testCase name="dashboard Rendering menu items for a specific status" duration="60"/>
+        <testCase name="dashboard Service found and text is truncated" duration="84"/>
+        <testCase name="dashboard Service not found" duration="57"/>
+        <testCase name="dashboard Truncate text when it exceeds the specified length" duration="48"/>
+        <testCase name="dashboard Do not truncate null text" duration="49"/>
+        <testCase name="dashboard Do not truncate text when it does not exceed the specified length" duration="49"/>
+        <testCase name="dashboard Exiting the app on back button click" duration="50"/>
+        <testCase name="dashboard Service icon detail is not null and has a URL" duration="50"/>
+        <testCase name="dashboard Service icon detail is null" duration="50"/>
+        <testCase name="dashboard Service icon detail is not null but has no URL" duration="50"/>
+        <testCase name="dashboard User role contains a profile" duration="49"/>
+        <testCase name="dashboard User role does not contain a profile but sign up details are present in AsyncStorage" duration="49"/>
+        <testCase name="dashboard User role does not contain a profile and no sign up details in AsyncStorage" duration="50"/>
+        <testCase name="dashboard Successfully fetch user detail data from storage" duration="59"/>
+        <testCase name="dashboard No user profile data in storage" duration="58"/>
+        <testCase name="dashboard Get notary completed request count" duration="57"/>
+        <testCase name="dashboard Get user completed request count" duration="57"/>
+        <testCase name="dashboard Handling response with ongoing requests and end user requests" duration="60"/>
+        <testCase name="dashboard Handling response with no ongoing requests" duration="63"/>
+        <testCase name="dashboard Handling response with different user role" duration="61"/>
+        <testCase name="dashboard Redirect to view page" duration="62"/>
+        <testCase name="dashboard Redirect to withdraw page" duration="58"/>
+        <testCase name="dashboard Redirect to edit page" duration="53"/>
+        <testCase name="dashboard Redirect to accept page" duration="56"/>
+        <testCase name="dashboard Redirect to submit quote page" duration="54"/>
+        <testCase name="dashboard Redirect to RequestManagement page" duration="55"/>
+        <testCase name="dashboard Do not redirect for other keys" duration="55"/>
+        <testCase name="dashboard User is an end user" duration="54"/>
+        <testCase name="dashboard User is not a notary" duration="80"/>
+        <testCase name="dashboard Sorting and filtering dashboard Response" duration="88"/>
+        <testCase name="dashboard Sorting and filtering new request Response" duration="59"/>
+        <testCase name="dashboard Rendering menu items for end_user with status &quot;Pending&quot;" duration="59"/>
+        <testCase name="dashboard Rendering menu items for notary with status &quot;Pending&quot;" duration="61"/>
+        <testCase name="dashboard Service found and text is truncated data" duration="68"/>
+        <testCase name="dashboard Service not found data" duration="62"/>
+        <testCase name="dashboard Truncate text when it exceeds the specified length data" duration="52"/>
+        <testCase name="dashboard Do not truncate null text data" duration="55"/>
+        <testCase name="dashboard Do not truncate text when it does not exceed the specified length data" duration="53"/>
+        <testCase name="dashboard Close the cancel request model" duration="63"/>
+        <testCase name="dashboard Pressing no to changes button" duration="58"/>
+        <testCase name="dashboard Pressing yes proceed to changes button" duration="58"/>
+        <testCase name="dashboard Successful Cancel Request response" duration="56"/>
+        <testCase name="dashboard Successful notification Request response" duration="57"/>
+        <testCase name="dashboard Successful reject Request response" duration="57"/>
+        <testCase name="dashboard Redirect to cancel page with pending status" duration="64"/>
+        <testCase name="dashboard Redirect to reject request" duration="63"/>
+        <testCase name="dashboard Redirect to cancel page with non-pending status" duration="57"/>
+        <testCase name="dashboard Show cancellation model for in-progress with iOS" duration="58"/>
+        <testCase name="dashboard Show cancellation model for in-progress with Android" duration="62"/>
+        <testCase name="dashboard Selected action type is edit" duration="53"/>
+        <testCase name="dashboard Selected action type is not edit" duration="55"/>
+        <testCase name="dashboard Menu width for end user role" duration="54"/>
+        <testCase name="dashboard Menu width for other roles" duration="55"/>
+        <testCase name="dashboard Outgoing request" duration="49"/>
+        <testCase name="dashboard From all requests" duration="52"/>
+        <testCase name="dashboard Neither outgoing nor from all requests" duration="52"/>
+        <testCase name="dashboard Service name is provided and length is greater than 0" duration="52"/>
+        <testCase name="dashboard Service name is an empty string" duration="50"/>
+        <testCase name="dashboard Service name is null" duration="47"/>
+        <testCase name="dashboard click on Book now button From popup" duration="67"/>
+        <testCase name="dashboard Pressing the request detail button" duration="52"/>
+        <testCase name="dashboard complete the profile" duration="73"/>
+        <testCase name="dashboard Formatting the number zero" duration="54"/>
+        <testCase name="dashboard Formatting a single-digit number" duration="50"/>
+        <testCase name="dashboard Formatting a two-digit number" duration="51"/>
+        <testCase name="dashboard Notary user with quote status 2" duration="56"/>
+        <testCase name="dashboard Notary user with quote status null" duration="92"/>
+        <testCase name="dashboard Notary user with a different quote status" duration="66"/>
+        <testCase name="dashboard End user with any quote status" duration="54"/>
+        <testCase name="dashboard End user with a previous date" duration="56"/>
+        <testCase name="dashboard End user with a future date" duration="55"/>
+        <testCase name="dashboard Notary user with any date" duration="53"/>
+        <testCase name="dashboard User presses the &quot;See All Your Request&quot; button" duration="48"/>
+        <testCase name="dashboard User clicks on &quot;See All New Requests&quot; button" duration="51"/>
+        <testCase name="dashboard User clicks on &quot;See All Ongoing Requests&quot; button" duration="47"/>
+        <testCase name="dashboard User clicks on &quot;See All Your Requests&quot; button" duration="46"/>
+        <testCase name="dashboard Requests with pending status and completeProfileList is empty" duration="54"/>
+        <testCase name="dashboard Requests with pending status and completeProfileList is not empty" duration="60"/>
+        <testCase name="dashboard Navigating to a specific profile tab screen" duration="46"/>
+        <testCase name="dashboard Navigating to the VAT Sales Tax screen" duration="50"/>
+        <testCase name="dashboard Close the cancellation error popup when OK is clicked" duration="52"/>
+        <testCase name="dashboard Format a valid cancellation number" duration="44"/>
+        <testCase name="dashboard Format a cancellation number with no decimals" duration="47"/>
+        <testCase name="dashboard Format a cancellation number with exactly two decimals" duration="50"/>
+        <testCase name="dashboard Display cancellation error popup for matching API request call ID" duration="56"/>
+        <testCase name="dashboard Do not display error popup for non-matching API request call ID" duration="46"/>
+        <testCase name="dashboard Handle cancellation charge API response" duration="58"/>
+        <testCase name="dashboard Handle error response" duration="57"/>
+        <testCase name="dashboard Display red notification image for unread notifications" duration="51"/>
+        <testCase name="dashboard Display default notification image when all notifications are read" duration="49"/>
+        <testCase name="dashboard See All button of notary services pressed" duration="46"/>
+        <testCase name="dashboard Extract abbreviation from a string containing parentheses" duration="44"/>
+        <testCase name="dashboard Handle string without parentheses" duration="49"/>
+        <testCase name="dashboard Extract text inside parentheses from a valid string" duration="47"/>
+        <testCase name="dashboard Handle empty string input" duration="47"/>
+        <testCase name="dashboard Handle string without parentheses new" duration="46"/>
+        <testCase name="dashboard Handle string with empty parentheses" duration="50"/>
+        <testCase name="dashboard Closing the success message modal" duration="57"/>
+        <testCase name="dashboard Opening notifications via button press" duration="53"/>
+        <testCase name="dashboard User proceeds to reject request" duration="51"/>
+        <testCase name="dashboard User cancels the rejection" duration="52"/>
+        <testCase name="dashboard Returns menu items for invite when user is a notary" duration="51"/>
+        <testCase name="dashboard Returns menu items for invite when user is not a notary" duration="50"/>
+        <testCase name="dashboard Toggling between Request and Invite tabs" duration="57"/>
+        <testCase name="dashboard Handling tab selection" duration="68"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/continueAsGuest.steps.tsx">
+        <testCase name="continueAsGuest User navigates to continueAsGuest" duration="689"/>
+        <testCase name="continueAsGuest Checking if the array contains any blank objects" duration="123"/>
+        <testCase name="continueAsGuest Extract data from Jurisdictions API response" duration="109"/>
+        <testCase name="continueAsGuest Extract data from service API response" duration="76"/>
+        <testCase name="continueAsGuest Open camera and handle image from camera" duration="77"/>
+        <testCase name="continueAsGuest Open photo gallery and handle image selection" duration="80"/>
+        <testCase name="continueAsGuest Select document from file picker and handle selection" duration="72"/>
+        <testCase name="continueAsGuest Handle dropdown open close and image change" duration="113"/>
+        <testCase name="continueAsGuest Toggling a document" duration="81"/>
+        <testCase name="continueAsGuest Document is not toggled" duration="70"/>
+        <testCase name="continueAsGuest Document is toggled" duration="74"/>
+        <testCase name="continueAsGuest Render style for iOS" duration="63"/>
+        <testCase name="continueAsGuest Render style for Android" duration="60"/>
+        <testCase name="continueAsGuest Render error style when step one validation fails and selected day is empty" duration="73"/>
+        <testCase name="continueAsGuest Render text field background style when step one validation passes or selected day is not empty" duration="67"/>
+        <testCase name="continueAsGuest Document has signatory" duration="60"/>
+        <testCase name="continueAsGuest Document has no signatory" duration="62"/>
+        <testCase name="continueAsGuest Remove a document when multiple documents exist" duration="78"/>
+        <testCase name="continueAsGuest Do not remove a document when only one document exists" duration="73"/>
+        <testCase name="continueAsGuest Successfully handles session response message" duration="73"/>
+        <testCase name="continueAsGuest Successfully handles navigation payload message with valid data" duration="65"/>
+        <testCase name="continueAsGuest Handles navigation payload message with no data" duration="69"/>
+        <testCase name="continueAsGuest Handle successful notary creation response" duration="72"/>
+        <testCase name="continueAsGuest Handle unsuccessful notary creation response" duration="70"/>
+        <testCase name="continueAsGuest Process valid NotaryRequest response" duration="70"/>
+        <testCase name="continueAsGuest Process NotaryRequest response with no file documents" duration="71"/>
+        <testCase name="continueAsGuest Increase the number of documents" duration="79"/>
+        <testCase name="continueAsGuest Increase the number of documents when at max limit" duration="80"/>
+        <testCase name="continueAsGuest Decrease the number of documents" duration="80"/>
+        <testCase name="continueAsGuest Decrease the number of documents when at min limit" duration="83"/>
+        <testCase name="continueAsGuest Navigate to step 2 when the first step button is enabled" duration="126"/>
+        <testCase name="continueAsGuest Do not navigate to step 2 when the first step button is disabled" duration="75"/>
+        <testCase name="continueAsGuest Navigate to step 3 when the second step button is enabled" duration="80"/>
+        <testCase name="continueAsGuest Do not navigate to step 3 when the second step button is disabled" duration="82"/>
+        <testCase name="continueAsGuest Transform dynamic object with file details and recipients" duration="69"/>
+        <testCase name="continueAsGuest Transform dynamic object with file having no size" duration="63"/>
+        <testCase name="continueAsGuest Transform dynamic object with file having size and uri" duration="60"/>
+        <testCase name="continueAsGuest Transform dynamic object with file having size but no uri" duration="65"/>
+        <testCase name="continueAsGuest Pressing the button without enabled secondary step button" duration="69"/>
+        <testCase name="continueAsGuest Pressing the button with enabled secondary step button" duration="80"/>
+        <testCase name="continueAsGuest Navigate to step 2 with enabled first step button" duration="66"/>
+        <testCase name="continueAsGuest Navigate to step 3 with enabled secondary step button" duration="66"/>
+        <testCase name="continueAsGuest Selected action type is edit" duration="63"/>
+        <testCase name="continueAsGuest Selected action type is not edit" duration="60"/>
+        <testCase name="continueAsGuest Selected action type is edit for sucess screen" duration="59"/>
+        <testCase name="continueAsGuest Selected action type is not edit for sucess screen" duration="56"/>
+        <testCase name="continueAsGuest Validate recipient name when isStepThiredValidation is true and name is empty" duration="63"/>
+        <testCase name="continueAsGuest Validate recipient name when isStepThiredValidation is true and name is only whitespace" duration="62"/>
+        <testCase name="continueAsGuest Validate recipient name when isStepThiredValidation is true and name is not empty" duration="61"/>
+        <testCase name="continueAsGuest Validate recipient name when isStepThiredValidation is false" duration="64"/>
+        <testCase name="continueAsGuest Valid recipient&apos;s name" duration="61"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name (starts with a number)" duration="57"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name (contains special characters)" duration="57"/>
+        <testCase name="continueAsGuest Valid recipient&apos;s name with spaces" duration="58"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name with additional validation step" duration="69"/>
+        <testCase name="continueAsGuest Valid recipient&apos;s name with additional validation step" duration="66"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name but step third validation is disabled" duration="63"/>
+        <testCase name="continueAsGuest Empty name with step third validation enabled" duration="64"/>
+        <testCase name="continueAsGuest Button name for edit action" duration="57"/>
+        <testCase name="continueAsGuest Button name for create action" duration="63"/>
+        <testCase name="continueAsGuest Document can be removed" duration="61"/>
+        <testCase name="continueAsGuest Document cannot be removed" duration="64"/>
+        <testCase name="continueAsGuest Render error style when step one validation fails" duration="64"/>
+        <testCase name="continueAsGuest Render text field background validation passes or selected day is not empty" duration="95"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name with additional validation" duration="64"/>
+        <testCase name="continueAsGuest Valid recipient&apos;s name with additional validation" duration="60"/>
+        <testCase name="continueAsGuest Invalid recipient&apos;s name but step third validation is" duration="68"/>
+        <testCase name="continueAsGuest Empty name with step third validation" duration="61"/>
+        <testCase name="continueAsGuest User toggles a document to show an added participant" duration="60"/>
+        <testCase name="continueAsGuest Menu width for end user role" duration="53"/>
+        <testCase name="continueAsGuest Menu width for other roles" duration="54"/>
+        <testCase name="continueAsGuest Set service type detail with valid serviceId and serviceName" duration="57"/>
+        <testCase name="continueAsGuest Scroll the view to the top" duration="53"/>
+        <testCase name="continueAsGuest Process notarization API response and update state" duration="60"/>
+        <testCase name="continueAsGuest All required fields are valid and button click proceeds to the next step" duration="77"/>
+        <testCase name="continueAsGuest Some required fields are missing or invalid" duration="67"/>
+        <testCase name="continueAsGuest All required fields are valid" duration="60"/>
+        <testCase name="continueAsGuest Some required fields are missing or invalid use" duration="61"/>
+        <testCase name="continueAsGuest Select a country option" duration="66"/>
+        <testCase name="continueAsGuest Open the country dropdown" duration="61"/>
+        <testCase name="continueAsGuest Close the country dropdown" duration="64"/>
+        <testCase name="continueAsGuest Open the country code dropdown" duration="61"/>
+        <testCase name="continueAsGuest Close the country code dropdown" duration="65"/>
+        <testCase name="continueAsGuest Set country code" duration="59"/>
+        <testCase name="continueAsGuest Update phone number" duration="67"/>
+        <testCase name="continueAsGuest Update user name" duration="64"/>
+        <testCase name="continueAsGuest Update address line one" duration="65"/>
+        <testCase name="continueAsGuest Update address line two" duration="66"/>
+        <testCase name="continueAsGuest Update city" duration="69"/>
+        <testCase name="continueAsGuest Update post code" duration="66"/>
+        <testCase name="continueAsGuest Update email" duration="67"/>
+        <testCase name="continueAsGuest Validation fails due to missing inputs" duration="95"/>
+        <testCase name="continueAsGuest Validation passes and navigates to the next step" duration="89"/>
+        <testCase name="continueAsGuest Error message is not displayed when there is no validation message" duration="76"/>
+        <testCase name="continueAsGuest Extracting the file name when a valid file path is provided" duration="60"/>
+        <testCase name="continueAsGuest Button press with invalid conditions (validation fails)" duration="93"/>
+        <testCase name="continueAsGuest User selects a past month" duration="86"/>
+        <testCase name="continueAsGuest Text box is empty and step zero validation is enabled" duration="70"/>
+        <testCase name="continueAsGuest Text box is not empty and step zero validation is enabled" duration="69"/>
+        <testCase name="continueAsGuest Text box value is irrelevant when step zero validation is disabled" duration="84"/>
+        <testCase name="continueAsGuest User navigates to the login page from the email alert model" duration="103"/>
+        <testCase name="continueAsGuest User closes the email alert model" duration="66"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/dashboard/__tests__/step-definitions/newNotaryRequest.steps.tsx">
+        <testCase name="newNotaryRequest User navigates to newNotaryRequest" duration="632"/>
+        <testCase name="newNotaryRequest Checking if the array contains any blank objects" duration="74"/>
+        <testCase name="newNotaryRequest Extract data from Jurisdictions API response" duration="70"/>
+        <testCase name="newNotaryRequest Extract data from service API response" duration="65"/>
+        <testCase name="newNotaryRequest Open camera and handle image from camera" duration="71"/>
+        <testCase name="newNotaryRequest Open photo gallery and handle image selection" duration="74"/>
+        <testCase name="newNotaryRequest Select document from file picker and handle selection" duration="67"/>
+        <testCase name="newNotaryRequest Handle dropdown open close and image change" duration="106"/>
+        <testCase name="newNotaryRequest Toggling a document" duration="75"/>
+        <testCase name="newNotaryRequest Document is not toggled" duration="67"/>
+        <testCase name="newNotaryRequest Document is toggled" duration="65"/>
+        <testCase name="newNotaryRequest Render style for iOS" duration="59"/>
+        <testCase name="newNotaryRequest Render style for Android" duration="59"/>
+        <testCase name="newNotaryRequest Render error style when step one validation fails and selected day is empty" duration="70"/>
+        <testCase name="newNotaryRequest Render text field background style when step one validation passes or selected day is not empty" duration="105"/>
+        <testCase name="newNotaryRequest Document has signatory" duration="74"/>
+        <testCase name="newNotaryRequest Document has no signatory" duration="72"/>
+        <testCase name="newNotaryRequest Remove a document when multiple documents exist" duration="74"/>
+        <testCase name="newNotaryRequest Do not remove a document when only one document exists" duration="68"/>
+        <testCase name="newNotaryRequest Successfully handles session response message" duration="75"/>
+        <testCase name="newNotaryRequest Successfully handles navigation payload message with valid data" duration="63"/>
+        <testCase name="newNotaryRequest Handles navigation payload message with no data" duration="56"/>
+        <testCase name="newNotaryRequest Handle successful notary creation response" duration="56"/>
+        <testCase name="newNotaryRequest Handle unsuccessful notary creation response" duration="77"/>
+        <testCase name="newNotaryRequest Process valid NotaryRequest response" duration="63"/>
+        <testCase name="newNotaryRequest Process NotaryRequest response with no file documents" duration="67"/>
+        <testCase name="newNotaryRequest Increase the number of documents" duration="68"/>
+        <testCase name="newNotaryRequest Increase the number of documents when at max limit" duration="69"/>
+        <testCase name="newNotaryRequest Decrease the number of documents" duration="71"/>
+        <testCase name="newNotaryRequest Decrease the number of documents when at min limit" duration="70"/>
+        <testCase name="newNotaryRequest Navigate to step 2 when the first step button is enabled" duration="66"/>
+        <testCase name="newNotaryRequest Do not navigate to step 2 when the first step button is disabled" duration="63"/>
+        <testCase name="newNotaryRequest Navigate to step 3 when the second step button is enabled" duration="64"/>
+        <testCase name="newNotaryRequest Do not navigate to step 3 when the second step button is disabled" duration="59"/>
+        <testCase name="newNotaryRequest Transform dynamic object with file details and recipients" duration="63"/>
+        <testCase name="newNotaryRequest Transform dynamic object with file having no size" duration="62"/>
+        <testCase name="newNotaryRequest Transform dynamic object with file having size and uri" duration="61"/>
+        <testCase name="newNotaryRequest Transform dynamic object with file having size but no uri" duration="62"/>
+        <testCase name="newNotaryRequest Pressing the button without enabled secondary step button" duration="63"/>
+        <testCase name="newNotaryRequest Pressing the button with enabled secondary step button" duration="75"/>
+        <testCase name="newNotaryRequest Navigate to step 2 with enabled first step button" duration="56"/>
+        <testCase name="newNotaryRequest Navigate to step 3 with enabled secondary step button" duration="67"/>
+        <testCase name="newNotaryRequest Selected action type is edit" duration="54"/>
+        <testCase name="newNotaryRequest Selected action type is not edit" duration="55"/>
+        <testCase name="newNotaryRequest Selected action type is edit for sucess screen" duration="53"/>
+        <testCase name="newNotaryRequest Selected action type is not edit for sucess screen" duration="54"/>
+        <testCase name="newNotaryRequest Validate recipient name when isStepThiredValidation is true and name is empty" duration="64"/>
+        <testCase name="newNotaryRequest Validate recipient name when isStepThiredValidation is true and name is only whitespace" duration="64"/>
+        <testCase name="newNotaryRequest Validate recipient name when isStepThiredValidation is true and name is not empty" duration="62"/>
+        <testCase name="newNotaryRequest Validate recipient name when isStepThiredValidation is false" duration="80"/>
+        <testCase name="newNotaryRequest Valid recipient&apos;s name" duration="68"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name (starts with a number)" duration="57"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name (contains special characters)" duration="57"/>
+        <testCase name="newNotaryRequest Valid recipient&apos;s name with spaces" duration="59"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name with additional validation step" duration="61"/>
+        <testCase name="newNotaryRequest Valid recipient&apos;s name with additional validation step" duration="62"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name but step third validation is disabled" duration="64"/>
+        <testCase name="newNotaryRequest Empty name with step third validation enabled" duration="63"/>
+        <testCase name="newNotaryRequest Button name for edit action" duration="54"/>
+        <testCase name="newNotaryRequest Button name for create action" duration="59"/>
+        <testCase name="newNotaryRequest Document can be removed" duration="65"/>
+        <testCase name="newNotaryRequest Document cannot be removed" duration="63"/>
+        <testCase name="newNotaryRequest Render error style when step one validation fails" duration="62"/>
+        <testCase name="newNotaryRequest Render text field background validation passes or selected day is not empty" duration="64"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name with additional validation" duration="62"/>
+        <testCase name="newNotaryRequest Valid recipient&apos;s name with additional validation" duration="61"/>
+        <testCase name="newNotaryRequest Invalid recipient&apos;s name but step third validation is" duration="66"/>
+        <testCase name="newNotaryRequest Empty name with step third validation" duration="63"/>
+        <testCase name="newNotaryRequest User toggles a document to show an added participant" duration="62"/>
+        <testCase name="newNotaryRequest Menu width for end user role" duration="53"/>
+        <testCase name="newNotaryRequest Menu width for other roles" duration="53"/>
+        <testCase name="newNotaryRequest Set service type detail with valid serviceId and serviceName" duration="62"/>
+        <testCase name="newNotaryRequest Scroll the view to the top" duration="54"/>
+        <testCase name="newNotaryRequest Save Draft button triggers createDarftNewNotary" duration="56"/>
+        <testCase name="newNotaryRequest Cancel Request button triggers handleCancelRequest" duration="56"/>
+        <testCase name="newNotaryRequest Button validation fails due to missing inputs" duration="73"/>
+        <testCase name="newNotaryRequest Button proceeds to step two when inputs are valid" duration="80"/>
+        <testCase name="newNotaryRequest Button does not proceed when getFirstStepBtnEnabled returns false" duration="78"/>
+        <testCase name="newNotaryRequest Handle cancel request and navigation" duration="61"/>
+        <testCase name="newNotaryRequest Return Standard priority when selectedColor is #D1FAE5" duration="60"/>
+        <testCase name="newNotaryRequest Return Priority when selectedColor is #FEF3C7" duration="60"/>
+        <testCase name="newNotaryRequest Return Super Priority when selectedColor is neither #D1FAE5 nor #FEF3C7" duration="61"/>
+        <testCase name="newNotaryRequest Return an empty string when selectedMarkedDate is null or selectedColor is undefined" duration="63"/>
+        <testCase name="newNotaryRequest User closes the Save Draft popup" duration="63"/>
+        <testCase name="newNotaryRequest Show Save Draft Option when action type is &apos;edit&apos;" duration="59"/>
+        <testCase name="newNotaryRequest Show Save Draft when all state values are default" duration="85"/>
+        <testCase name="newNotaryRequest Do not show Save Draft when any state value is set" duration="59"/>
+    </file>
+</testExecutions>

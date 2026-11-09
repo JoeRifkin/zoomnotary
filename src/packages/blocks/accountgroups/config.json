@@ -1,0 +1,65 @@
+{
+  "id": "AccountGroups",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AccountGroups",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AccountGroups"
+    ],
+    "assembler-dependencies": ["\"react-native-datepicker\": \"^1.7.2\""],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [
+      "\"@types/react-native-datepicker\": \"^1.7.0\""
+    ],
+    "merge-engine-screens": {
+      "AccountGroups": {
+        "file": "AccountGroups.tsx",
+        "extends": "AccountGroupsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AccountGroupsController",
+            "path": "./AccountGroupsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AccountGroupsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AccountGroups",
+    ],
+    "assembler-dependencies": ["\"react-native-datepicker\": \"^1.7.2\""],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [
+      "\"@types/react-native-datepicker\": \"^1.7.0\""
+    ],
+    "merge-engine-screens": {
+      "AccountGroups": {
+        "file": "AccountGroups.web.tsx",
+        "extends": "AccountGroupsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AccountGroupsController",
+            "path": "./AccountGroupsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AccountGroupsController"
+          }
+        ]
+      }
+    }
+  }
+}

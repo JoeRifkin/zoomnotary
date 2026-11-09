@@ -1,0 +1,38 @@
+{
+  "id": "DocusignIntegration",
+  "version": "0.0.1",
+  "certificationType": "lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DocusignIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-signature-canvas\": \"4.5.0\"",
+      "\"react-signature-canvas\": \"1.0.6\"",
+      "\"signature_pad\": \"4.1.5\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-signature-canvas\": \"4.5.0\"",
+      "\"react-signature-canvas\": \"1.0.6\"",
+      "\"signature_pad\": \"4.1.5\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

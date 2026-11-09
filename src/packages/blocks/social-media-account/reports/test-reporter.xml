@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/afnandanish/Documents/builder/lite-certification/fe-block-auto-certify/fe-block-certification-validate/boiler-plate/packages/blocks/social-media-account/__tests__/step-definitions/SocialMediaAccountRegistration.steps.tsx">
+        <testCase name="SocialMediaAccountRegistration should render without crashes" duration="345"/>
+        <testCase name="SocialMediaAccountRegistration social login with facebook button should be define inside render" duration="137"/>
+        <testCase name="SocialMediaAccountRegistration network call should be called for login when user successfully singup to facebook" duration="9"/>
+        <testCase name="SocialMediaAccountRegistration social singup with google button should be define inside render" duration="87"/>
+        <testCase name="SocialMediaAccountRegistration network call should be called for signup when user successfully singup to google account" duration="2"/>
+        <testCase name="SocialMediaAccountRegistration response message should be saved on session message" duration="12"/>
+        <testCase name="SocialMediaAccountRegistration network response should be get for signup" duration="4"/>
+        <testCase name="SocialMediaAccountRegistration user press button to navigate to sinup with email password" duration="88"/>
+    </file>
+    <file path="/Users/afnandanish/Documents/builder/lite-certification/fe-block-auto-certify/fe-block-certification-validate/boiler-plate/packages/blocks/social-media-account/__tests__/step-definitions/SocialMediaAccount.web.steps.tsx">
+        <testCase name="SocialMediaAccount should render without crashes" duration="375"/>
+        <testCase name="SocialMediaAccount response should be get when user successfully login" duration="164"/>
+        <testCase name="SocialMediaAccount should be called debugLog with error when user failed to login" duration="111"/>
+        <testCase name="SocialMediaAccount should be called debugLog with error when user failed to resgistration" duration="177"/>
+        <testCase name="SocialMediaAccount resgistration response should be get when user successfully login" duration="89"/>
+        <testCase name="SocialMediaAccount response message should be saved on session message" duration="21"/>
+        <testCase name="SocialMediaAccount network response should be get for login" duration="3"/>
+        <testCase name="SocialMediaAccount Should be get success message when user login with google account successfully" duration="82"/>
+        <testCase name="SocialMediaAccount Should be get failed message when user click google button and cancel" duration="67"/>
+        <testCase name="SocialMediaAccount User login with google account for registration" duration="74"/>
+        <testCase name="SocialMediaAccount network response should be get for signup" duration="3"/>
+        <testCase name="SocialMediaAccount Navigation should be called for login with email and password" duration="61"/>
+        <testCase name="SocialMediaAccount Navigation should be called for signup with email and password" duration="75"/>
+    </file>
+    <file path="/Users/afnandanish/Documents/builder/lite-certification/fe-block-auto-certify/fe-block-certification-validate/boiler-plate/packages/blocks/social-media-account/__tests__/step-definitions/SocialMediaAccountLogin.steps.tsx">
+        <testCase name="SocialMediaAccountLogin should render without crashes" duration="277"/>
+        <testCase name="SocialMediaAccountLogin social login with facebook button should be define inside render" duration="83"/>
+        <testCase name="SocialMediaAccountLogin network call should be called for login when user successfully login to facebook" duration="12"/>
+        <testCase name="SocialMediaAccountLogin network response should be get for facebook login" duration="5"/>
+        <testCase name="SocialMediaAccountLogin social login with google button should be define inside render" duration="63"/>
+        <testCase name="SocialMediaAccountLogin network call should be called for login when user successfully login to google account" duration="2"/>
+        <testCase name="SocialMediaAccountLogin response message should be saved on session message" duration="1"/>
+        <testCase name="SocialMediaAccountLogin network response should be get for login" duration="1"/>
+        <testCase name="SocialMediaAccountLogin user press button to navigate to login with email password" duration="67"/>
+    </file>
+</testExecutions>

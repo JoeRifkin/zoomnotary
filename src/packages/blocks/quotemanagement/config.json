@@ -1,0 +1,34 @@
+{
+  "id": "QuoteManagement",
+  "version": "0.1.3",
+  "status": "preAlpha",
+  "certificationType": "lite",
+  "path": "./packages/blocks/quotemanagement",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-select-dropdown\":\"^3.3.4\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-select-dropdown\":\"^3.3.4\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

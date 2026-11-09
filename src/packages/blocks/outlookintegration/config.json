@@ -1,0 +1,55 @@
+{
+  "id": "OutlookIntegration",
+  "version": "1.2.4",
+  "status": "preAlpha",
+  "path": "./packages/blocks/OutlookIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-app-auth\": \"^6.4.3\"",
+      "\"@microsoft/microsoft-graph-client\": \"^3.0.7\"",
+      "\"isomorphic-fetch\": \"^3.0.0\"",
+      "\"@azure/msal-react\": \"^2.0.8\"",
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-navigation": {},
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-app-auth\": \"^6.4.3\"",
+      "\"@microsoft/microsoft-graph-client\": \"^3.0.7\"",
+      "\"isomorphic-fetch\": \"^3.0.0\"",
+      "\"@azure/msal-react\": \"^2.0.8\"",
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-navigation": {},
+    "merge-engine-screens": {}
+  },
+  "certificationType": "lite",
+  "assembler-file-alias": {
+    "webConfigOverrides": "src/packages/web/config-overrides.js"
+  },
+  "assembler-boilerplate": {
+    "webConfigOverrides": {
+      "appIncludes": {
+        "modifications": [
+          "resolveApp('../../node_modules/react-native-elements'),"
+        ],
+        "merge-strategy": "deduplication"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "QuoteManagement",
+  "label": "QuoteManagement",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "0.1.3",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [],
+  "web": []
+}

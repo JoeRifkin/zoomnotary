@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsUsers.steps.tsx">
+        <testCase name="TermsConditionsUsers User navigates to TermsConditions" duration="142"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsDetail.web.steps.tsx">
+        <testCase name="TermsConditionsDetail User navigates to TermsConditions" duration="389"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsDetail.steps.tsx">
+        <testCase name="TermsConditionsDetail User navigates to TermsConditions" duration="391"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsEdit.steps.tsx">
+        <testCase name="TermsConditionsEdit User navigates to TermsConditions" duration="369"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditions.steps.tsx">
+        <testCase name="TermsConditions User navigates to TermsConditions" duration="345"/>
+        <testCase name="TermsConditions Extracting title and description from HTML data" duration="92"/>
+        <testCase name="TermsConditions Generating HTML content when termsConds is populated" duration="91"/>
+        <testCase name="TermsConditions Generating HTML content when termsConds is empty" duration="93"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsEdit.web.steps.tsx">
+        <testCase name="TermsConditionsEdit User navigates to TermsConditions" duration="339"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditions.web.steps.tsx">
+        <testCase name="TermsConditions User navigates to TermsConditions" duration="192"/>
+    </file>
+</testExecutions>

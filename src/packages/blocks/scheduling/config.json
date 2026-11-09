@@ -1,0 +1,78 @@
+{
+  "id": "Scheduling",
+  "version": "1.1.4",
+  "status": "preAlpha",
+  "path": "./packages/blocks/scheduling",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Scheduling"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Scheduling": {
+        "file": "Scheduling.tsx",
+        "extends": "SchedulingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SchedulingController",
+            "path": "./SchedulingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SchedulingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Scheduling"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-elements\": \"3.4.0\""
+    ],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Scheduling": {
+        "file": "Scheduling.tsx",
+        "extends": "SchedulingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SchedulingController",
+            "path": "./SchedulingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SchedulingController"
+          }
+        ]
+      }
+    }
+  },
+  "assembler-file-alias": {
+    "webConfigOverrides": "src/packages/web/config-overrides.js"
+  },
+  "assembler-boilerplate": {
+    "webConfigOverrides": {
+      "appIncludes": {
+        "modifications": [
+          "resolveApp('../../node_modules/react-native-elements'),"
+        ],
+        "merge-strategy": "deduplication"
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "StripePayments",
+  "version": "2.0.4",
+  "status": "release",
+  "path": "./packages/blocks/stripepayments",
+  "assembler-adapters": [],
+  "assembler-file-alias": {
+    "app-build.gradle": "src/packages/mobile/android/app/build.gradle",
+    "MainApplication": "src/packages/mobile/android/app/src/main/java/com/<APP_NAME>/MainApplication.java",
+    "settings.gradle": "src/packages/mobile/android/settings.gradle",
+    "Podfile": "src/packages/mobile/ios/Podfile"
+  },
+  "assembler-boilerplate": {
+    "Podfile": {
+      "BlockPods": {
+        "modifications": [
+          "pod 'stripe-react-native', :path => '../../../node_modules/@stripe/stripe-react-native'"
+        ],
+        "merge-strategy": "append"
+      }
+    },
+    "app-build.gradle": {
+      "Dependencies": {
+        "modifications": [
+          "compile project(':@stripe_stripe-react-native')"
+        ],
+        "merge-strategy": "append"
+      },
+      "ResolutionStrategy": {
+        "modifications": [
+          "androidx.core:core:1.8.0"
+        ],
+        "merge-strategy": "deduplication"
+      }
+    },
+    "MainApplication": {
+      "Imports": {
+        "modifications": [
+          "import com.reactnativestripesdk.StripeSdkPackage;"
+        ],
+        "merge-strategy": "append"
+      },
+      "Packages": {
+        "modifications": [
+          "packages.add(new StripeSdkPackage());"
+        ],
+        "merge-strategy": "append"
+      }
+    },
+    "settings.gradle": {
+      "IncludeProjects": {
+        "modifications": [
+          "include ':@stripe_stripe-react-native'\nproject(':@stripe_stripe-react-native').projectDir = new File(rootProject.projectDir, '../../../node_modules/@stripe/stripe-react-native/android')"
+        ],
+        "merge-strategy": "append"
+      }
+    }
+  },
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StripePayments"
+    ],
+    "assembler-dependencies": [
+      "\"@stripe/react-stripe-js\": \"^1.16.5\"",
+      "\"@stripe/stripe-js\": \"^1.54.2\"",
+      "\"@stripe/stripe-react-native\": \"^0.20.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@testing-library/dom\": \"8.18.1\"",
+      "\"@testing-library/jest-dom\": \"5.16.5\"",
+      "\"@testing-library/react\": \"13.4.0\"",
+      "\"@testing-library/react-native\": \"11.2.0\"",
+      "\"@testing-library/jest-native\": \"^4.0.12\""
+    ],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StripePayments"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-mask-input\": \"^1.2.2\"",
+      "\"cleave.js\": \"^1.6.0\"",
+      "\"@stripe/react-stripe-js\": \"^2.3.1\"",
+      "\"@stripe/stripe-js\": \"^2.1.10\"",
+      "\"@stripe/stripe-react-native\": \"^0.20.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@testing-library/dom\": \"8.18.1\"",
+      "\"@testing-library/jest-dom\": \"5.16.5\"",
+      "\"@testing-library/react\": \"13.4.0\"",
+      "\"@testing-library/react-native\": \"11.2.0\"",
+      "\"@testing-library/jest-native\": \"^4.0.12\""
+    ],
+    "merge-engine-screens": {}
+  }
+}

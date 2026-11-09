@@ -1,0 +1,15 @@
+export const userProfile = require("../assets/user-profile.png");
+export const imgBackArrow = require("../assets/arrow_back.png");
+export const imgAvatarUser = require("../assets/avatarUser.png");
+export const imgFaqs = require("../assets/faqs.png");
+export const imgGrayMoon = require("../assets/grayMoon.png");
+export const imgModeNight = require("../assets/modeNight.png");
+export const imgServices = require("../assets/services.png");
+export const imgSetting = require("../assets/setting.png");
+export const imgLogOut = require("../assets/logOut.png");
+export const imgUser = require("../assets/user.png");
+export const imgOnline = require("../assets/imgOnline.png");
+export const imgPayment = require("../assets/payments.png");
+export const searchIcon = require("../assets/search.png");
+export const imgDownArrow = require("../assets/downArrow.png");
+export const imgUpArrow = require("../assets/upArrow.png");

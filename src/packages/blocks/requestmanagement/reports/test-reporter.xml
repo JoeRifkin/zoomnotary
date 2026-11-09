@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/RequestManagement.steps.tsx">
+        <testCase name="RequestManagement User navigates to RequestManagement" duration="511"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/SentRequest.steps.tsx">
+        <testCase name="SentRequest User navigates to SentRequest" duration="522"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/QuotePayment.steps.tsx">
+        <testCase name="QuotePayment User navigates to QuotePayment" duration="340"/>
+        <testCase name="QuotePayment Payment type is card" duration="38"/>
+        <testCase name="QuotePayment Payment type is not card" duration="33"/>
+        <testCase name="QuotePayment Setting payment type to &quot;card&quot;" duration="39"/>
+        <testCase name="QuotePayment Both selectedCurrency and paymentType are set" duration="35"/>
+        <testCase name="QuotePayment selectedCurrency is empty" duration="52"/>
+        <testCase name="QuotePayment paymentType is empty" duration="55"/>
+        <testCase name="QuotePayment paymentType is GPay" duration="41"/>
+        <testCase name="QuotePayment Proceed button is enabled" duration="34"/>
+        <testCase name="QuotePayment Proceed button is disabled" duration="32"/>
+        <testCase name="QuotePayment Closing the currency dropdown" duration="32"/>
+        <testCase name="QuotePayment Opening the currency dropdown" duration="33"/>
+        <testCase name="QuotePayment Setting the selected currency value" duration="32"/>
+        <testCase name="QuotePayment Opening a valid Stripe URL" duration="27"/>
+        <testCase name="QuotePayment API request call ID matches proceedApiCallId" duration="32"/>
+        <testCase name="QuotePayment API request call ID does not match proceedApiCallId" duration="28"/>
+        <testCase name="QuotePayment Message contains custom data" duration="33"/>
+        <testCase name="QuotePayment All fields are validated, but selectedCurrency is null" duration="34"/>
+        <testCase name="QuotePayment All fields are validated, and selectedCurrency is not null" duration="31"/>
+        <testCase name="QuotePayment Not all fields are validated" duration="32"/>
+        <testCase name="QuotePayment Pressing the request detail button" duration="31"/>
+        <testCase name="QuotePayment Successfully handle quote accept response" duration="29"/>
+        <testCase name="QuotePayment Successfully handle request with StripeSuccessPage URL" duration="29"/>
+        <testCase name="QuotePayment Successfully handle request with StripeFailurePage URL" duration="25"/>
+        <testCase name="QuotePayment Successfully handle request with cancel URL" duration="27"/>
+        <testCase name="QuotePayment Handle request with a URL not related to Stripe" duration="31"/>
+        <testCase name="QuotePayment Successfully reset payment state and redirect to request detail page" duration="34"/>
+        <testCase name="QuotePayment Handle API response when quoteAcceptApiCallId is matched" duration="27"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/SentRequest.web.steps.tsx">
+        <testCase name="SentRequest User navigates to SentRequest" duration="87"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/QuoteManagement.web.steps.tsx">
+        <testCase name="QuoteManagement User navigates to QuoteManagement" duration="48"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/QuotePayment.web.steps.tsx">
+        <testCase name="QuotePayment User navigates to QuotePayment" duration="42"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/RequestDetail.web.steps.tsx">
+        <testCase name="RequestDetail User navigates to RequestDetail" duration="79"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/RequestManagement.web.steps.tsx">
+        <testCase name="RequestManagement User navigates to RequestManagement" duration="155"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/QuoteManagement.steps.tsx">
+        <testCase name="QuoteManagement User navigates to QuoteManagement" duration="434"/>
+        <testCase name="QuoteManagement Render error style when step one validation fails and selected day is empty" duration="48"/>
+        <testCase name="QuoteManagement Render text field background style when step one validation passes or selected day is not empty" duration="46"/>
+        <testCase name="QuoteManagement Render style for iOS" duration="46"/>
+        <testCase name="QuoteManagement Render style for Android" duration="41"/>
+        <testCase name="QuoteManagement Toggling the remember me checkbox" duration="58"/>
+        <testCase name="QuoteManagement Toggling the includ Platform Fee checkbox" duration="61"/>
+        <testCase name="QuoteManagement Updating the selected currency" duration="42"/>
+        <testCase name="QuoteManagement Enter value for Include Platform fees" duration="44"/>
+        <testCase name="QuoteManagement Enter value for Add message" duration="45"/>
+        <testCase name="QuoteManagement Click on Cancel button from popup" duration="52"/>
+        <testCase name="QuoteManagement Closing the time selection modal" duration="42"/>
+        <testCase name="QuoteManagement Both start and end times are selected" duration="45"/>
+        <testCase name="QuoteManagement Only start time is selected" duration="44"/>
+        <testCase name="QuoteManagement Only end time is selected" duration="45"/>
+        <testCase name="QuoteManagement Neither start nor end times are selected" duration="43"/>
+        <testCase name="QuoteManagement Click on watch icon button from popup" duration="48"/>
+        <testCase name="QuoteManagement select the start time form poupup" duration="37"/>
+        <testCase name="QuoteManagement select the end time form poupup" duration="38"/>
+        <testCase name="QuoteManagement Click on Make Quote button" duration="47"/>
+        <testCase name="QuoteManagement All fields are valid" duration="41"/>
+        <testCase name="QuoteManagement Some fields are invalid" duration="37"/>
+        <testCase name="QuoteManagement Start time is later than end time" duration="38"/>
+        <testCase name="QuoteManagement Start time is before end time" duration="55"/>
+        <testCase name="QuoteManagement Start time is after end time" duration="54"/>
+        <testCase name="QuoteManagement Start time or end time is empty" duration="55"/>
+        <testCase name="QuoteManagement All fields are filled" duration="65"/>
+        <testCase name="QuoteManagement Some fields are empty" duration="62"/>
+        <testCase name="QuoteManagement All fields are empty" duration="49"/>
+        <testCase name="QuoteManagement Close time selection model when time type is start time" duration="52"/>
+        <testCase name="QuoteManagement Close time selection model when time type is end time" duration="51"/>
+        <testCase name="QuoteManagement Close time selection model when time type is neither start nor end time" duration="53"/>
+        <testCase name="QuoteManagement Click on Next button from popup" duration="48"/>
+        <testCase name="QuoteManagement Time type is start time and start time is not empty" duration="41"/>
+        <testCase name="QuoteManagement Time type is start time and start time is empty" duration="42"/>
+        <testCase name="QuoteManagement Time type is end time and end time is not empty" duration="41"/>
+        <testCase name="QuoteManagement Time type is end time and end time is empty" duration="43"/>
+        <testCase name="QuoteManagement Time type is neither start time nor end time" duration="38"/>
+        <testCase name="QuoteManagement Convert date time in the morning" duration="33"/>
+        <testCase name="QuoteManagement Convert date time in the afternoon" duration="34"/>
+        <testCase name="QuoteManagement Convert date time at noon" duration="41"/>
+        <testCase name="QuoteManagement Convert date time at midnight" duration="31"/>
+        <testCase name="QuoteManagement Fees is zero, all fields are valid, and error message is not visible" duration="47"/>
+        <testCase name="QuoteManagement Fees is not zero" duration="39"/>
+        <testCase name="QuoteManagement All fields are not valid" duration="42"/>
+        <testCase name="QuoteManagement Error message is visible for selected currency" duration="43"/>
+        <testCase name="QuoteManagement All required fields are filled and video call is not required" duration="67"/>
+        <testCase name="QuoteManagement One or more required fields are empty" duration="52"/>
+        <testCase name="QuoteManagement Video call is required" duration="48"/>
+        <testCase name="QuoteManagement Handle make quote API response" duration="49"/>
+        <testCase name="QuoteManagement Pressing the request detail button" duration="34"/>
+        <testCase name="QuoteManagement Handling navigation payload message with valid data" duration="40"/>
+        <testCase name="QuoteManagement Convert a valid date" duration="33"/>
+        <testCase name="QuoteManagement Scroll the view to the top" duration="36"/>
+        <testCase name="QuoteManagement User presses the fail OK button and the navigation goes back" duration="40"/>
+        <testCase name="QuoteManagement Quote submitted successfully" duration="39"/>
+        <testCase name="QuoteManagement Quote submission failed" duration="32"/>
+        <testCase name="QuoteManagement Start and end times are within 30 minutes" duration="43"/>
+        <testCase name="QuoteManagement Start and end times are not within 30 minutes" duration="41"/>
+        <testCase name="QuoteManagement Start or end time is missing" duration="38"/>
+        <testCase name="QuoteManagement Selected start or end time is null" duration="38"/>
+        <testCase name="QuoteManagement Open time selection modal for &quot;start time&quot;" duration="44"/>
+        <testCase name="QuoteManagement Open time selection modal for &quot;end time&quot;" duration="48"/>
+        <testCase name="QuoteManagement Open time selection modal for &quot;start time&quot; without selectedStartTime" duration="48"/>
+        <testCase name="QuoteManagement Open time selection modal for &quot;end time&quot; without selectedEndTime" duration="50"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/InviteClient.steps.tsx">
+        <testCase name="InviteClient User navigates to InviteClient" duration="393"/>
+        <testCase name="InviteClient Handle dropdown open close and image change" duration="231"/>
+        <testCase name="InviteClient Return true when selectedNotarisation is valid and label does not include &quot;RIN&quot;" duration="56"/>
+        <testCase name="InviteClient Return false when selectedNotarisation is null" duration="48"/>
+        <testCase name="InviteClient Return false when selectedNotarisation label is missing" duration="43"/>
+        <testCase name="InviteClient Return false when selectedNotarisation label includes &quot;RIN&quot;" duration="41"/>
+        <testCase name="InviteClient Start time is less than end time and meets the minimum gap" duration="40"/>
+        <testCase name="InviteClient Start time is equal to end time" duration="38"/>
+        <testCase name="InviteClient Start time is greater than end time" duration="38"/>
+        <testCase name="InviteClient Start time is less than end time but does not meet the minimum gap" duration="39"/>
+        <testCase name="InviteClient Form validation succeeds with valid input" duration="73"/>
+        <testCase name="InviteClient Form validation fails due to missing required fields" duration="55"/>
+        <testCase name="InviteClient Invalid email format" duration="56"/>
+        <testCase name="InviteClient Invalid mobile number format" duration="50"/>
+        <testCase name="InviteClient Fees field is not numeric" duration="50"/>
+        <testCase name="InviteClient Start time is not less than end time" duration="54"/>
+        <testCase name="InviteClient Required video notarization checkbox not checked" duration="231"/>
+        <testCase name="InviteClient Invalid mobile number when length is less than 9" duration="46"/>
+        <testCase name="InviteClient Valid case when mobileNumber is empty" duration="44"/>
+        <testCase name="InviteClient State updates when getButtonEnabledForTimeSave returns true for start time" duration="44"/>
+        <testCase name="InviteClient State updates when getButtonEnabledForTimeSave returns true for end time" duration="47"/>
+        <testCase name="InviteClient State does not update when getButtonEnabledForTimeSave returns false for start time" duration="42"/>
+        <testCase name="InviteClient State does not update when getButtonEnabledForTimeSave returns false for end time" duration="40"/>
+        <testCase name="InviteClient closeTimeSelectionModel updates state correctly when timeType is &apos;start time&apos;" duration="52"/>
+        <testCase name="InviteClient closeTimeSelectionModel updates state correctly when timeType is &apos;end time&apos;" duration="50"/>
+        <testCase name="InviteClient noToChangesTimeSelection.onPress() calls closeTimeSelectionModel" duration="45"/>
+        <testCase name="InviteClient onStartAndEndTimeChange updates selectedStartTime and selectedStartTimeTxt when timeType is &apos;start time&apos;" duration="49"/>
+        <testCase name="InviteClient onStartAndEndTimeChange updates selectedEndTime and selectedEndTimeTxt when timeType is &apos;end time&apos;" duration="51"/>
+        <testCase name="InviteClient Formatting time in AM/PM format" duration="38"/>
+        <testCase name="InviteClient convertDateTimeIntoTime correctly formats 12 AM and 12 PM" duration="33"/>
+        <testCase name="InviteClient renderUIStyleOfEndTime returns error when no end time is set" duration="42"/>
+        <testCase name="InviteClient renderUIStyleOfEndTime returns &apos;textFieldBg&apos; when selectedEndTimeTxt is not empty" duration="50"/>
+        <testCase name="InviteClient Updating selected currency" duration="41"/>
+        <testCase name="InviteClient txtInputFeesProps.onChangeText updates fees state" duration="41"/>
+        <testCase name="InviteClient Updating additional message input field" duration="41"/>
+        <testCase name="InviteClient renderStyleOfDataTImeFieldAccordingToOS returns correct style for iOS" duration="38"/>
+        <testCase name="InviteClient Rendering style for Android" duration="42"/>
+        <testCase name="InviteClient getTimeSelectionModalOpen updates state for &apos;start time&apos;" duration="50"/>
+        <testCase name="InviteClient Opening time selection modal for end time" duration="50"/>
+        <testCase name="InviteClient Cancel request button press" duration="46"/>
+        <testCase name="InviteClient handleCancelRequest updates onModalOpen state to false" duration="52"/>
+        <testCase name="InviteClient getMarTopOnError returns &apos;topMar&apos; when error is visible" duration="39"/>
+        <testCase name="InviteClient getMarTopOnError returns &apos;marTopNon&apos; when isErrorMesVisible is false" duration="38"/>
+        <testCase name="InviteClient isErrorMesVisible returns true for null or blank values" duration="36"/>
+        <testCase name="InviteClient isErrorMesVisible returns false for non-blank values" duration="37"/>
+        <testCase name="InviteClient checkStartAndEndTime returns true when both times are set and within 30 minutes" duration="45"/>
+        <testCase name="InviteClient checkStartAndEndTime returns false when times are more than 30 minutes apart" duration="39"/>
+        <testCase name="InviteClient checkStartAndEndTime returns false when any time is missing" duration="46"/>
+        <testCase name="InviteClient showVideoReqError returns true when video call is required and fields are validated" duration="42"/>
+        <testCase name="InviteClient showVideoReqError returns false when fields are not validated" duration="43"/>
+        <testCase name="InviteClient checkVideoCallRequired returns true when notarisation does not contain &apos;RIN&apos; and first box is unchecked" duration="45"/>
+        <testCase name="InviteClient checkVideoCallRequired returns false when notarisation contains &apos;RIN&apos;" duration="42"/>
+        <testCase name="InviteClient checkVideoCallRequired returns false when first box is checked" duration="44"/>
+        <testCase name="InviteClient checkTimeDifferenceErrorMsg returns true when start time is not at least 30 minutes before end time" duration="43"/>
+        <testCase name="InviteClient checkTimeDifferenceErrorMsg returns false when start time is at least 30 minutes before end time" duration="42"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/ZoomMeeting.steps.tsx">
+        <testCase name="ZoomMeeting User navigates to ZoomMeeting" duration="32"/>
+        <testCase name="ZoomMeeting Go back when button is pressed" duration="5"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/requestmanagement/__tests__/step-definitions/RequestDetail.steps.tsx">
+        <testCase name="RequestDetail User navigates to RequestDetail" duration="668"/>
+        <testCase name="RequestDetail User clicks on the tab" duration="61"/>
+        <testCase name="RequestDetail Toggle signatory state when the same index is selected" duration="72"/>
+        <testCase name="RequestDetail Open a new signatory when a different index is selected" duration="68"/>
+        <testCase name="RequestDetail Get up arrow image when signatory is open and index matches" duration="69"/>
+        <testCase name="RequestDetail Get down arrow image when signatory is not open" duration="64"/>
+        <testCase name="RequestDetail Get down arrow image when index does not match" duration="64"/>
+        <testCase name="RequestDetail Signatory name is visible when index matches and signatory is open" duration="59"/>
+        <testCase name="RequestDetail Signatory name is not visible when signatory is not open" duration="64"/>
+        <testCase name="RequestDetail Signatory name is not visible when index does not match" duration="70"/>
+        <testCase name="RequestDetail Handle apiCancellationChargeCallId" duration="64"/>
+        <testCase name="RequestDetail Handle apiCancelRequestCallId" duration="62"/>
+        <testCase name="RequestDetail Handle apiQuoteListCallId" duration="54"/>
+        <testCase name="RequestDetail Handle apiQuoteStatusListCallId" duration="52"/>
+        <testCase name="RequestDetail Handle apiWithdrawQuoteCallId" duration="58"/>
+        <testCase name="RequestDetail Handle apiCallToCheckDocuSignStartedID" duration="53"/>
+        <testCase name="RequestDetail Handle apiCallStartDocuSignID" duration="55"/>
+        <testCase name="RequestDetail Handle getKycVerificationStatusCallId" duration="56"/>
+        <testCase name="RequestDetail Handle getUnreadMessageCallId" duration="50"/>
+        <testCase name="RequestDetail Handle createChatRoomApiCallId" duration="45"/>
+        <testCase name="RequestDetail Handle unhandled API request call ID" duration="45"/>
+        <testCase name="RequestDetail When request status is pending" duration="60"/>
+        <testCase name="RequestDetail When request status is not pending" duration="84"/>
+        <testCase name="RequestDetail Close the cancel request model" duration="55"/>
+        <testCase name="RequestDetail Pressing no to changes button" duration="55"/>
+        <testCase name="RequestDetail Pressing yes proceed to changes button" duration="57"/>
+        <testCase name="RequestDetail Extract signatory names from FileDocument" duration="46"/>
+        <testCase name="RequestDetail Cancel request button should be visible" duration="51"/>
+        <testCase name="RequestDetail Cancel request button should not be visible" duration="50"/>
+        <testCase name="RequestDetail Cancel request button should not be visible for completed status" duration="83"/>
+        <testCase name="RequestDetail Truncate text when it exceeds the specified length" duration="43"/>
+        <testCase name="RequestDetail Do not truncate text when it does not exceed the specified length" duration="46"/>
+        <testCase name="RequestDetail File name with multiple slashes" duration="48"/>
+        <testCase name="RequestDetail File name without slashes" duration="43"/>
+        <testCase name="RequestDetail File name with special characters" duration="47"/>
+        <testCase name="RequestDetail Pressing the request detail button" duration="44"/>
+        <testCase name="RequestDetail Convert a valid date string to 12-hour time format" duration="45"/>
+        <testCase name="RequestDetail Convert another valid date string to 12-hour time format" duration="44"/>
+        <testCase name="RequestDetail Handle undefined date input" duration="45"/>
+        <testCase name="RequestDetail Convert a valid date string to DD/MM/YYYY format" duration="47"/>
+        <testCase name="RequestDetail Convert another valid date string to DD/MM/YYYY format" duration="44"/>
+        <testCase name="RequestDetail Trigger onPress in cancelPreviewModel" duration="81"/>
+        <testCase name="RequestDetail Set state when preview button is clicked" duration="50"/>
+        <testCase name="RequestDetail User role is notary and request status is pending" duration="70"/>
+        <testCase name="RequestDetail User role is not notary" duration="49"/>
+        <testCase name="RequestDetail Request status is not pending" duration="49"/>
+        <testCase name="RequestDetail Make Quote button should be visible" duration="63"/>
+        <testCase name="RequestDetail Make Quote button should not be visible" duration="53"/>
+        <testCase name="RequestDetail Order Quote view should be visible" duration="48"/>
+        <testCase name="RequestDetail Order Quote view should not be visible" duration="48"/>
+        <testCase name="RequestDetail Quote number should be visible" duration="46"/>
+        <testCase name="RequestDetail Quote number should not be visible due to key mismatch" duration="44"/>
+        <testCase name="RequestDetail Quote number should not be visible due to empty quote list data" duration="48"/>
+        <testCase name="RequestDetail Pay Now button is pressed" duration="58"/>
+        <testCase name="RequestDetail Calculate total fees when previewQuoteDetail is present" duration="51"/>
+        <testCase name="RequestDetail Return undefined when previewQuoteDetail is not present" duration="42"/>
+        <testCase name="RequestDetail Successfully update selected tab to &quot;overview&quot;" duration="44"/>
+        <testCase name="RequestDetail Meeting data is available" duration="55"/>
+        <testCase name="RequestDetail Meeting data is not available" duration="50"/>
+        <testCase name="RequestDetail Tracking details are available" duration="174"/>
+        <testCase name="RequestDetail Tracking details are not available" duration="49"/>
+        <testCase name="RequestDetail KYC details are available" duration="48"/>
+        <testCase name="RequestDetail KYC details are not available" duration="51"/>
+        <testCase name="RequestDetail DocuSign details are available" duration="50"/>
+        <testCase name="RequestDetail DocuSign details are not available" duration="45"/>
+        <testCase name="RequestDetail Toggle isNotifyMins from false to true" duration="54"/>
+        <testCase name="RequestDetail Toggle isNotifyMins from true to false" duration="49"/>
+        <testCase name="RequestDetail Update isNotifyMins and notifyMinsProps.isChecked to true" duration="49"/>
+        <testCase name="RequestDetail Update isNotifyMins and notifyMinsProps.isChecked to false" duration="48"/>
+        <testCase name="RequestDetail Open Zoom meeting popup" duration="51"/>
+        <testCase name="RequestDetail Close Zoom meeting popup using closeZoomMeetingPopup function" duration="52"/>
+        <testCase name="RequestDetail Close Zoom meeting popup using cancelMeetingPopup button" duration="50"/>
+        <testCase name="RequestDetail Component mounts on web platform" duration="42"/>
+        <testCase name="RequestDetail Component mounts on non-web platform" duration="47"/>
+        <testCase name="RequestDetail Show cancellation charge amount when conditions are met" duration="54"/>
+        <testCase name="RequestDetail Do not show cancellation charge amount when conditions are not met" duration="53"/>
+        <testCase name="RequestDetail Return true for end_user user type" duration="49"/>
+        <testCase name="RequestDetail Return false for non-end_user user type" duration="47"/>
+        <testCase name="RequestDetail Return meetingViewOpacity when opacityView is true" duration="46"/>
+        <testCase name="RequestDetail Return lessmeetingViewOpacity when opacityView is false" duration="51"/>
+        <testCase name="RequestDetail Sorts the quote list data by created_at in descending order" duration="49"/>
+        <testCase name="RequestDetail User clicks the Cancel button to withdraw a quote" duration="45"/>
+        <testCase name="RequestDetail User cancels the withdraw action" duration="44"/>
+        <testCase name="RequestDetail User presses the Withdraw Quote No button" duration="43"/>
+        <testCase name="RequestDetail User presses the Withdraw Quote Yes button" duration="38"/>
+        <testCase name="RequestDetail User presses the Go Back to Dashboard button" duration="36"/>
+        <testCase name="RequestDetail User presses the Go Back to Search button" duration="38"/>
+        <testCase name="RequestDetail Call make quote API when onPress is triggered" duration="39"/>
+        <testCase name="RequestDetail Proceed button is enabled" duration="39"/>
+        <testCase name="RequestDetail Quote status is submitted" duration="38"/>
+        <testCase name="RequestDetail Quote status is not submitted" duration="39"/>
+        <testCase name="RequestDetail Start and end time are provided" duration="36"/>
+        <testCase name="RequestDetail Toggling the notify value on button press" duration="50"/>
+        <testCase name="RequestDetail Setting the notify value to true via onChangeValue" duration="53"/>
+        <testCase name="RequestDetail Setting the notify value to false via onChangeValue" duration="50"/>
+        <testCase name="RequestDetail Toggling the notify Data on button press" duration="49"/>
+        <testCase name="RequestDetail Setting the notify Data to true via onChangeValue" duration="49"/>
+        <testCase name="RequestDetail Setting the notify Data to false via onChangeValue" duration="48"/>
+        <testCase name="RequestDetail User role is end_user" duration="44"/>
+        <testCase name="RequestDetail User role is not end_user" duration="44"/>
+        <testCase name="RequestDetail User toggles the up/down arrow of DocuSign for the selected index" duration="53"/>
+        <testCase name="RequestDetail User selects a different index for DocuSign" duration="51"/>
+        <testCase name="RequestDetail Arrow image changes based on index" duration="53"/>
+        <testCase name="RequestDetail Visibility of DocSign name for selected index" duration="51"/>
+        <testCase name="RequestDetail User type allows filtering of DocuSign data" duration="43"/>
+        <testCase name="RequestDetail User type does not allow filtering of DocuSign data" duration="46"/>
+        <testCase name="RequestDetail Show End User Button when conditions are met" duration="40"/>
+        <testCase name="RequestDetail Do not show End User Button when conditions are not met" duration="43"/>
+        <testCase name="RequestDetail Show Notary User Button when conditions are met" duration="44"/>
+        <testCase name="RequestDetail Disable Notary Button when conditions are met" duration="43"/>
+        <testCase name="RequestDetail All signatories and notaries have signed" duration="42"/>
+        <testCase name="RequestDetail All signatories and notaries have signed check" duration="40"/>
+        <testCase name="RequestDetail Some signatories or notaries have not signed" duration="48"/>
+        <testCase name="RequestDetail No document signing details are provided" duration="43"/>
+        <testCase name="RequestDetail Sorting the quote list data" duration="50"/>
+        <testCase name="RequestDetail Sorting and checking for DocuSign started when request is in progress" duration="57"/>
+        <testCase name="RequestDetail Getting background color for signed state" duration="44"/>
+        <testCase name="RequestDetail Getting text color for signed state" duration="41"/>
+        <testCase name="RequestDetail Getting signed status text" duration="41"/>
+        <testCase name="RequestDetail Getting button color based on notary button disabled state" duration="40"/>
+        <testCase name="RequestDetail Start the DocuSign process for a notary" duration="49"/>
+        <testCase name="RequestDetail Pressing button with selected document in state" duration="53"/>
+        <testCase name="RequestDetail Pressing button without selected document in state" duration="52"/>
+        <testCase name="RequestDetail Redirect when signing URLs are present" duration="56"/>
+        <testCase name="RequestDetail Do not redirect when signing URLs are absent" duration="44"/>
+        <testCase name="RequestDetail Button color for end user" duration="49"/>
+        <testCase name="RequestDetail Button color for other users" duration="48"/>
+        <testCase name="RequestDetail Show Mark Completed when conditions are met" duration="73"/>
+        <testCase name="RequestDetail Do not show Mark Completed when selected tab is not &apos;signing&apos;" duration="50"/>
+        <testCase name="RequestDetail Do not show Mark Completed when docuSignDetail is empty" duration="55"/>
+        <testCase name="RequestDetail DocSign name for Notary and Signature is visible" duration="50"/>
+        <testCase name="RequestDetail DocSign name for Notary and Signature is not visible" duration="55"/>
+        <testCase name="RequestDetail Filter tabs with a specific status and without RIN request type" duration="57"/>
+        <testCase name="RequestDetail Filter tabs with a specific status and with RIN request type" duration="54"/>
+        <testCase name="RequestDetail No request data status is available" duration="50"/>
+        <testCase name="RequestDetail Tabs are available in the filter" duration="43"/>
+        <testCase name="RequestDetail No tabs are available in the filter" duration="43"/>
+        <testCase name="RequestDetail Truncate a long file name" duration="45"/>
+        <testCase name="RequestDetail Do not truncate a short file name" duration="69"/>
+        <testCase name="RequestDetail Return selected tab border style when key matches selectedTab" duration="51"/>
+        <testCase name="RequestDetail Return unselected tab border style when key does not match selectedTab" duration="49"/>
+        <testCase name="RequestDetail Return selected tab text style when key matches selectedTab" duration="49"/>
+        <testCase name="RequestDetail Return unselected tab text style when key does not match selectedTab" duration="45"/>
+        <testCase name="RequestDetail Selected tab has the correct style" duration="45"/>
+        <testCase name="RequestDetail Unselected tab has the correct style" duration="43"/>
+        <testCase name="RequestDetail Selected tab text has the correct style" duration="39"/>
+        <testCase name="RequestDetail Unselected tab text has the correct style" duration="42"/>
+        <testCase name="RequestDetail Filter tabs are available" duration="51"/>
+        <testCase name="RequestDetail Status is &quot;in progress&quot; and filter tabs are available" duration="50"/>
+        <testCase name="RequestDetail Status is &quot;in progress&quot; and no filter tabs are available" duration="51"/>
+        <testCase name="RequestDetail No filter tabs available and status is not &quot;in progress&quot;" duration="46"/>
+        <testCase name="RequestDetail KYC status is null and key is &quot;meeting&quot; or &quot;signing&quot;" duration="46"/>
+        <testCase name="RequestDetail KYC status is not null and key is not &quot;meeting&quot; or &quot;signing&quot;" duration="57"/>
+        <testCase name="RequestDetail KYC status is null but key is not &quot;meeting&quot; or &quot;signing&quot;" duration="52"/>
+        <testCase name="RequestDetail Error JSON has errors and matches the apiCancellationChargeCallId" duration="50"/>
+        <testCase name="RequestDetail Error JSON has errors but does not match apiCancellationChargeCallId" duration="50"/>
+        <testCase name="RequestDetail Error JSON has no errors" duration="44"/>
+        <testCase name="RequestDetail Close the cancellation error popup when OK is clicked" duration="51"/>
+        <testCase name="RequestDetail Format a valid cancellation number" duration="43"/>
+        <testCase name="RequestDetail Format a cancellation number with no decimals" duration="42"/>
+        <testCase name="RequestDetail Format a cancellation number with exactly two decimals" duration="45"/>
+        <testCase name="RequestDetail Handle a response with errors" duration="50"/>
+        <testCase name="RequestDetail Handle a response with cancellation charges" duration="47"/>
+        <testCase name="RequestDetail Prevent tab change for specific conditions" duration="50"/>
+        <testCase name="RequestDetail Handle create chat room API response" duration="58"/>
+        <testCase name="RequestDetail handleMessage updates the state with the new message" duration="43"/>
+        <testCase name="RequestDetail onClickMessageIconProps functionality" duration="58"/>
+        <testCase name="RequestDetail messageCount.count is greater than 0" duration="47"/>
+        <testCase name="RequestDetail messageCount.count is 0 and newReceivedMessage is an empty string" duration="45"/>
+        <testCase name="RequestDetail newReceivedMessage is a non-empty string" duration="42"/>
+        <testCase name="RequestDetail Handle getMarkCompletedCallId" duration="47"/>
+        <testCase name="RequestDetail Handle Mark as Completed API response" duration="47"/>
+        <testCase name="RequestDetail Error in API response" duration="41"/>
+        <testCase name="RequestDetail Successfully close the custom message" duration="47"/>
+        <testCase name="RequestDetail All conditions are met" duration="41"/>
+        <testCase name="RequestDetail Some conditions are not met" duration="38"/>
+        <testCase name="RequestDetail Meeting end date is in the past" duration="43"/>
+        <testCase name="RequestDetail Meeting end date is in the future" duration="46"/>
+        <testCase name="RequestDetail Meeting end date is not provided" duration="47"/>
+        <testCase name="RequestDetail Mark as Complete button is clickable" duration="47"/>
+        <testCase name="RequestDetail Mark as Complete button is not clickable" duration="34"/>
+        <testCase name="RequestDetail Close the Mark Completed Model" duration="47"/>
+        <testCase name="RequestDetail Call Mark as Complete API and close the model" duration="59"/>
+        <testCase name="RequestDetail Invite request status is &quot;invite&quot;" duration="44"/>
+        <testCase name="RequestDetail Invite request status is &quot;rejected&quot;" duration="49"/>
+        <testCase name="RequestDetail Invite request status is neither &quot;invite&quot; nor &quot;rejected&quot;" duration="48"/>
+        <testCase name="RequestDetail Request status is &quot;completed&quot;" duration="50"/>
+        <testCase name="RequestDetail Request status is &quot;draft&quot;" duration="47"/>
+        <testCase name="RequestDetail Request status is &quot;pending&quot;" duration="50"/>
+        <testCase name="RequestDetail Request status is &quot;cancelled&quot;" duration="53"/>
+        <testCase name="RequestDetail Request status is neither &quot;completed&quot;, &quot;draft&quot;, &quot;pending&quot;, nor &quot;cancelled&quot;" duration="54"/>
+        <testCase name="RequestDetail The invite request is rejected" duration="81"/>
+        <testCase name="RequestDetail Retrieve VAT fees when available" duration="45"/>
+        <testCase name="RequestDetail Return 0 when vat_fee is missing" duration="41"/>
+    </file>
+</testExecutions>

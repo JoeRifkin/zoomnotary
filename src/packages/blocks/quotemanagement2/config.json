@@ -1,0 +1,69 @@
+{
+  "id": "quotemanagement2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/quotemanagement2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Quotemanagement2"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Quotemanagement2": {
+        "file": "Quotemanagement2.tsx",
+        "extends": "Quotemanagement2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Quotemanagement2Controller",
+            "path": "./Quotemanagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Quotemanagement2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Quotemanagement2"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Quotemanagement2": {
+        "file": "Quotemanagement2.web.tsx",
+        "extends": "Quotemanagement2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Quotemanagement2Controller",
+            "path": "./Quotemanagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Quotemanagement2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

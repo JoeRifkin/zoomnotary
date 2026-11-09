@@ -1,0 +1,69 @@
+{
+  "id": "settings",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/settings",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Settings"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Settings": {
+        "file": "Settings.tsx",
+        "extends": "SettingsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SettingsController",
+            "path": "./SettingsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SettingsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Settings"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Settings": {
+        "file": "Settings.web.tsx",
+        "extends": "SettingsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SettingsController",
+            "path": "./SettingsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SettingsController"
+          }
+        ]
+      }
+    }
+  }
+}

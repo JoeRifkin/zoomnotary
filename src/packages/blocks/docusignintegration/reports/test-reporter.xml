@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/docusignintegration/__tests__/step-definitions/DocumentContet.steps.tsx">
+        <testCase name="DocumentContet User navigates to DocumentContet" duration="357"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/docusignintegration/__tests__/step-definitions/DocumentList.steps.tsx">
+        <testCase name="DocumentList User navigates to DocumentList" duration="359"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/docusignintegration/__tests__/step-definitions/DocusignIntegration.web.steps.tsx">
+        <testCase name="DocusignIntegration User navigates to DocusignIntegration" duration="194"/>
+        <testCase name="DocusignIntegration User clear the sign and back to document list" duration="27"/>
+        <testCase name="DocusignIntegration User sign and submit the document e-sign" duration="52"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/docusignintegration/__tests__/step-definitions/DocusignIntegration.steps.tsx">
+        <testCase name="DocusignIntegration User navigates to DocusignIntegration" duration="299"/>
+        <testCase name="DocusignIntegration Storing property values when custom data is available" duration="93"/>
+        <testCase name="DocusignIntegration No custom data in the message" duration="88"/>
+        <testCase name="DocusignIntegration Go back to the dashboard" duration="88"/>
+        <testCase name="DocusignIntegration Handle Stripe success page request" duration="96"/>
+        <testCase name="DocusignIntegration Check the status of the request" duration="88"/>
+        <testCase name="DocusignIntegration URL contains StripeSuccessPage" duration="84"/>
+        <testCase name="DocusignIntegration URL does not contain StripeSuccessPage" duration="88"/>
+        <testCase name="DocusignIntegration User clicks to view the request details" duration="100"/>
+        <testCase name="DocusignIntegration Access token and envelope ID are set" duration="86"/>
+        <testCase name="DocusignIntegration Access token or envelope ID is not set" duration="101"/>
+    </file>
+</testExecutions>

@@ -1,0 +1,20 @@
+{
+  "name": "GoogleCalendarSync",
+  "id": "GoogleCalendarSync",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "2.1.3",
+  "mobile": [
+    {
+      "GoogleCalendarSync": {
+        "label": "GoogleCalendarSync"
+      }
+    }
+  ],
+  "web": []
+}

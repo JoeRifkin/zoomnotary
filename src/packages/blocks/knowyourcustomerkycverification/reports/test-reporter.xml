@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KnowYourCustomerKycVerifiedAccount2.steps.tsx">
+        <testCase name="KnowYourCustomerKycVerification User navigates to KnowYourCustomerKycVerifiedAccount2web" duration="308"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KycVerificationAccount.web.steps.tsx">
+        <testCase name="KycVerificationAccount User navigates to KycVerificationAccount" duration="165"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KnowYourCustomerKycVerifiedAccount2.web.steps.tsx">
+        <testCase name="KnowYourCustomerKycVerification User navigates to KnowYourCustomerKycVerifiedAccount2web" duration="156"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KnowYourCustomerKycVerification.web.steps.tsx">
+        <testCase name="KnowYourCustomerKycVerification User navigates to KnowYourCustomerKycVerificationweb" duration="212"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KycVerificationAccount.steps.tsx">
+        <testCase name="KycVerificationAccount User navigates to KycVerificationAccount" duration="312"/>
+        <testCase name="KycVerificationAccount Handle country API response" duration="112"/>
+        <testCase name="KycVerificationAccount Handle country code API response" duration="112"/>
+        <testCase name="KycVerificationAccount Handle applicant create API response" duration="105"/>
+        <testCase name="KycVerificationAccount Unknown API call ID" duration="110"/>
+        <testCase name="KycVerificationAccount Store token and user role when the message id is NavigationPayLoadMessage" duration="113"/>
+        <testCase name="KycVerificationAccount Call getCustmizeCountryList when responseJson contains data" duration="118"/>
+        <testCase name="KycVerificationAccount Filter out duplicate country codes and call getCustmizeCountryCodeList" duration="112"/>
+        <testCase name="KycVerificationAccount Do not update stepsNo when stepNumber is 2" duration="107"/>
+        <testCase name="KycVerificationAccount Do not update stepsNo when stepNumber is 3" duration="106"/>
+        <testCase name="KycVerificationAccount Update stepsNo when stepNumber is 1" duration="117"/>
+        <testCase name="KycVerificationAccount Update stepsNo when stepNumber is 4" duration="115"/>
+        <testCase name="KycVerificationAccount Check if string is null or blank" duration="107"/>
+        <testCase name="KycVerificationAccount Update firstName state when text is changed" duration="118"/>
+        <testCase name="KycVerificationAccount Update middleName state when text is changed" duration="111"/>
+        <testCase name="KycVerificationAccount Update lastName state when text is changed" duration="112"/>
+        <testCase name="KycVerificationAccount Update selectedCountryCode state when country code is changed" duration="107"/>
+        <testCase name="KycVerificationAccount Update mobileNumber state when phone number is changed" duration="110"/>
+        <testCase name="KycVerificationAccount Validate a valid email format" duration="99"/>
+        <testCase name="KycVerificationAccount Validate an invalid email format" duration="103"/>
+        <testCase name="KycVerificationAccount Update email state when text is changed" duration="106"/>
+        <testCase name="KycVerificationAccount Update selectedIdType state when ID type is selected" duration="111"/>
+        <testCase name="KycVerificationAccount Update stateCode state when text is changed" duration="108"/>
+        <testCase name="KycVerificationAccount Update idNumber state when text is changed" duration="106"/>
+        <testCase name="KycVerificationAccount Update addressFirst state when text is changed" duration="107"/>
+        <testCase name="KycVerificationAccount Update addressSec state when text is changed" duration="111"/>
+        <testCase name="KycVerificationAccount Update city state when text is changed" duration="105"/>
+        <testCase name="KycVerificationAccount Update selectedCountry state when a country is selected" duration="112"/>
+        <testCase name="KycVerificationAccount Update postCode state when text is changed" duration="110"/>
+        <testCase name="KycVerificationAccount Open ID type dropdown" duration="113"/>
+        <testCase name="KycVerificationAccount Close ID type dropdown" duration="114"/>
+        <testCase name="KycVerificationAccount Open country dropdown" duration="110"/>
+        <testCase name="KycVerificationAccount Close country dropdown" duration="110"/>
+        <testCase name="KycVerificationAccount Enable the next button when all fields are valid" duration="107"/>
+        <testCase name="KycVerificationAccount Disable the next button when some fields are missing or invalid" duration="105"/>
+        <testCase name="KycVerificationAccount Proceed to the next step if the button is enabled" duration="134"/>
+        <testCase name="KycVerificationAccount Do not proceed to the next step if the button is disabled" duration="112"/>
+        <testCase name="KycVerificationAccount No to changes in Date of Birth" duration="122"/>
+        <testCase name="KycVerificationAccount Yes to changes in Date of Birth" duration="116"/>
+        <testCase name="KycVerificationAccount Format Date of Birth" duration="111"/>
+        <testCase name="KycVerificationAccount Select a date of birth" duration="109"/>
+        <testCase name="KycVerificationAccount Open the Date of Birth selection modal" duration="138"/>
+        <testCase name="KycVerificationAccount Response with applicant and workflow" duration="101"/>
+        <testCase name="KycVerificationAccount Response with message" duration="105"/>
+        <testCase name="KycVerificationAccount Response with errors" duration="108"/>
+        <testCase name="KycVerificationAccount Focus on date of birth input" duration="127"/>
+        <testCase name="KycVerificationAccount Close the date of birth selection modal" duration="117"/>
+        <testCase name="KycVerificationAccount Open the birth dropdown" duration="105"/>
+        <testCase name="KycVerificationAccount Close the birth dropdown" duration="104"/>
+        <testCase name="KycVerificationAccount Triggering the onFocus event" duration="105"/>
+        <testCase name="KycVerificationAccount Transform country data into label-value pairs" duration="102"/>
+        <testCase name="KycVerificationAccount User touches outside the input field" duration="100"/>
+        <testCase name="KycVerificationAccount Birth dropdown is open" duration="107"/>
+        <testCase name="KycVerificationAccount Birth dropdown is closed" duration="104"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/zoomnotary-401615-react-native/src/packages/blocks/knowyourcustomerkycverification/__tests__/step-definitions/KnowYourCustomerKycVerification.steps.tsx">
+        <testCase name="KnowYourCustomerKycVerification User navigates to KnowYourCustomerKycVerification" duration="328"/>
+        <testCase name="KnowYourCustomerKycVerification Handle KYC request call ID" duration="97"/>
+        <testCase name="KnowYourCustomerKycVerification Handle KYC document call ID" duration="91"/>
+        <testCase name="KnowYourCustomerKycVerification Handle KYC create call ID" duration="94"/>
+        <testCase name="KnowYourCustomerKycVerification Press the &apos;Not Have&apos; radio button" duration="95"/>
+        <testCase name="KnowYourCustomerKycVerification Press the &apos;Have&apos; radio button" duration="95"/>
+        <testCase name="KnowYourCustomerKycVerification Service is already selected" duration="97"/>
+        <testCase name="KnowYourCustomerKycVerification Service is not selected" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Button is enabled" duration="92"/>
+        <testCase name="KnowYourCustomerKycVerification Button is disabled due to empty selectedRadioBtn" duration="95"/>
+        <testCase name="KnowYourCustomerKycVerification Button is disabled due to empty selectedDocument" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification Button is enabled and callSenRequest is triggered" duration="97"/>
+        <testCase name="KnowYourCustomerKycVerification Button is disabled and callSenRequest is not triggered" duration="89"/>
+        <testCase name="KnowYourCustomerKycVerification User presses the Download Report button" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Successfully process session data and set state" duration="90"/>
+        <testCase name="KnowYourCustomerKycVerification Image is checked when isSelected is true" duration="91"/>
+        <testCase name="KnowYourCustomerKycVerification Image is unchecked when isSelected is false" duration="92"/>
+        <testCase name="KnowYourCustomerKycVerification Apply style for checked radio button" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Apply style for unchecked radio button" duration="89"/>
+        <testCase name="KnowYourCustomerKycVerification View status is pending" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification View status is complete" duration="92"/>
+        <testCase name="KnowYourCustomerKycVerification Text style for pending status" duration="100"/>
+        <testCase name="KnowYourCustomerKycVerification Text style for complete status" duration="120"/>
+        <testCase name="KnowYourCustomerKycVerification Text for pending status" duration="90"/>
+        <testCase name="KnowYourCustomerKycVerification Text for completed status" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Margin for non-empty value" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Margin for empty value" duration="92"/>
+        <testCase name="KnowYourCustomerKycVerification Radio button is selected" duration="90"/>
+        <testCase name="KnowYourCustomerKycVerification Radio button is not selected" duration="87"/>
+        <testCase name="KnowYourCustomerKycVerification Status is pendingFirst for text" duration="91"/>
+        <testCase name="KnowYourCustomerKycVerification Status is not pendingFirst for text" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification Value is not an empty string for margin" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification Value is an empty string for margin" duration="96"/>
+        <testCase name="KnowYourCustomerKycVerification Status is pendingFirst for view" duration="87"/>
+        <testCase name="KnowYourCustomerKycVerification Status is not pendingFirst for view" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification Status is pendingFirst for text view" duration="85"/>
+        <testCase name="KnowYourCustomerKycVerification Status is not pendingFirst for text view" duration="89"/>
+        <testCase name="KnowYourCustomerKycVerification User type is notary" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification User type is not notary" duration="89"/>
+        <testCase name="KnowYourCustomerKycVerification User type is enduser" duration="86"/>
+        <testCase name="KnowYourCustomerKycVerification User type is not enduser" duration="95"/>
+        <testCase name="KnowYourCustomerKycVerification User is a notary" duration="88"/>
+        <testCase name="KnowYourCustomerKycVerification User has verified KYC status" duration="85"/>
+        <testCase name="KnowYourCustomerKycVerification User is not a notary and KYC status is not verified" duration="106"/>
+        <testCase name="KnowYourCustomerKycVerification Successfully download a file" duration="92"/>
+        <testCase name="KnowYourCustomerKycVerification Handle an error during file download" duration="93"/>
+        <testCase name="KnowYourCustomerKycVerification Downloading a file when fileUrl is present" duration="87"/>
+        <testCase name="KnowYourCustomerKycVerification Button press does nothing when fileUrl is missing" duration="101"/>
+    </file>
+</testExecutions>

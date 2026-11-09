@@ -1,0 +1,40 @@
+export const imgBackArrow = require("../assets/arrow_back.png");
+export const imgRequestCalendar = require("../assets/requestCalendar.png");
+export const imgRequestDownArrow = require("../assets/requestDownArrow.png");
+export const imgRequestUpArrow = require("../assets/imgRequestUpArrow.png");
+export const imgRequestDownload = require("../assets/requestDownload.png");
+export const imgRequestEye = require("../assets/requestEye.png");
+export const imgRequestLocation = require("../assets/requestLocation.png");
+export const imKycVerifyed = require("../assets/kycVerifyed.png");
+export const imgKycNotVerifyed = require("../assets/kycNotVerifyed.png");
+export const imgDate = require("../assets/date.png");
+export const imgTime = require("../assets/time.png");
+export const imgClose = require("../assets/imgClose.png");
+export const imgCheckbox = require("../assets/imgCheckbox.png");
+export const emptyFolderImg = require("../assets/emptyFolderImg.png");
+export const imgFailCross = require("../assets/failCross.png");
+export const downArrowBlackImg = require("../assets/downArrowBlack.png");
+export const upArrowImg = require("../assets/upArrow.png");
+
+export const imgGooglePay = require("../assets/googlePay.png");
+export const imgApplePay = require("../assets/applePay.png");
+export const imgCardPay = require("../assets/cardPay.png");
+export const imgPayPal = require("../assets/PayPal.png");
+export const imgAmazonPay = require("../assets/amazonPay.png");
+export const imgRadioButton = require("../assets/radioButton.png");
+
+export const imgLocation = require("../assets/location.png");
+export const imgInvitation = require("../assets/invitation.png");
+export const imgNotes = require("../assets/notes.png");
+export const imgZoom = require("../assets/zoom.png");
+export const imgVerified = require("../assets/verified.png");
+export const imgCheckGray = require("../assets/checkGray.png");
+export const imgCheckWhite = require("../assets/checkWhite.png");
+export const edit = require("../assets/edit.png");
+export const copy = require("../assets/copy.png");
+export const removeImg = require("../assets/failCross.png");
+
+export const messageImg = require("../assets/message.png");
+export const redDotImg = require("../assets/redDot.png");
+export const warningImg = require("../assets/warning.png");
+export const imgSucessIcon = require("../assets/kycVerifyed.png");

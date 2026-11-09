@@ -1,0 +1,201 @@
+require_relative '../../../node_modules/react-native/scripts/react_native_pods'
+require_relative '../../../node_modules/@react-native-community/cli-platform-ios/native_modules'
+platform :ios, '13.0'
+prepare_react_native_project!
+
+permissions_path = '../../../node_modules/react-native-permissions/ios'
+
+target 'ZoomNotary' do
+  pod 'Onfido', '~> 30.3.0'
+
+  config = use_native_modules!
+
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # Hermes is now enabled by default. Disable by setting this flag to false.
+    # Upcoming versions of React Native may rely on get_default_flags(), but
+    # we make it explicit here to aid in the React Native upgrade process.
+    :hermes_enabled => false,
+    :fabric_enabled => flags[:fabric_enabled],
+    # Enables Flipper.
+    #
+    # Note that if you have use_frameworks! enabled, Flipper will not work and
+    # you should disable the next line.
+    #:flipper_configuration => flipper_config,
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/../../.."
+  )
+  
+  # Pods for ZoomNotary
+  pod 'react-native-image-picker', :path => '../../../node_modules/react-native-image-picker/react-native-image-picker.podspec'
+  pod 'RNFastImage', :path => '../../../node_modules/react-native-fast-image/RNFastImage.podspec'
+
+  pod 'FBSDKCoreKit'  
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKPlacesKit'
+
+  pod 'GoogleSignIn', '~> 5.0.2'
+  pod 'Firebase/Analytics'
+
+  pod 'RNPermissions', :path => '../../../node_modules/react-native-permissions'
+  pod 'Permission-AppTrackingTransparency', :path => "#{permissions_path}/AppTrackingTransparency/Permission-AppTrackingTransparency.podspec"
+  pod 'Permission-BluetoothPeripheral', :path => "#{permissions_path}/BluetoothPeripheral/Permission-BluetoothPeripheral.podspec"
+  pod 'Permission-Calendars', :path => "#{permissions_path}/Calendars/Permission-Calendars.podspec"
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera/Permission-Camera.podspec"
+  pod 'Permission-Contacts', :path => "#{permissions_path}/Contacts/Permission-Contacts.podspec"
+  pod 'Permission-FaceID', :path => "#{permissions_path}/FaceID/Permission-FaceID.podspec"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways/Permission-LocationAlways.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse/Permission-LocationWhenInUse.podspec"
+  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary/Permission-MediaLibrary.podspec"
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone/Permission-Microphone.podspec"
+  pod 'Permission-Motion', :path => "#{permissions_path}/Motion/Permission-Motion.podspec"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications/Permission-Notifications.podspec"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary/Permission-PhotoLibrary.podspec"
+  pod 'Permission-Reminders', :path => "#{permissions_path}/Reminders/Permission-Reminders.podspec"
+  pod 'Permission-Siri', :path => "#{permissions_path}/Siri/Permission-Siri.podspec"
+  pod 'Permission-SpeechRecognition', :path => "#{permissions_path}/SpeechRecognition/Permission-SpeechRecognition.podspec"
+  pod 'Permission-StoreKit', :path => "#{permissions_path}/StoreKit/Permission-StoreKit.podspec"
+
+  pod 'react-native-google-maps', :path => '../../../node_modules/react-native-maps/react-native-google-maps.podspec'
+  pod 'GoogleMaps'  # Uncomment this line if you want to support GoogleMaps on iOS
+  pod 'Google-Maps-iOS-Utils' # Uncomment this line if you want to support GoogleMaps on iOS
+  pod 'RNImageCropPicker', :path => '../../../node_modules/react-native-image-crop-picker'
+
+  pod 'RNCCheckbox', :path => '../../../node_modules/@react-native-community/checkbox'
+
+  pod 'react-native-webview', :path => '../../../node_modules/react-native-webview'
+
+  pod 'RNGestureHandler', :path => '../../../node_modules/react-native-gesture-handler'
+  
+  pod 'react-native-geolocation-service', path: '../../../node_modules/react-native-geolocation-service'
+
+  pod 'react-native-safe-area-context', :path => '../../../node_modules/react-native-safe-area-context'
+
+  pod 'RNSVG', :path => '../../../node_modules/react-native-svg'
+
+  pod 'RNShare', :path => '../../../node_modules/react-native-share'
+
+  pod 'react-native-compass-heading', :path => '../../../node_modules/react-native-compass-heading'
+
+  pod 'RNReanimated', :path => '../../../node_modules/react-native-reanimated'
+
+  pod 'RNFileViewer', :path => '../../../node_modules/react-native-file-viewer'
+
+  pod 'react-native-view-shot', :path => '../../../node_modules/react-native-view-shot'
+
+  pod 'RNImageToPdf', :path => '../../../node_modules/react-native-image-to-pdf'
+
+  pod 'RNCPicker', :path => '../../../node_modules/@react-native-picker/picker'
+
+  pod 'RNDeviceInfo', :path => '../../../node_modules/react-native-device-info'
+
+  pod 'react-native-netinfo', :path => '../../../node_modules/@react-native-community/netinfo'
+
+  pod 'RNCAsyncStorage', :path => '../../../node_modules/@react-native-async-storage/async-storage'
+
+  pod 'RNCPushNotificationIOS', :path => '../../../node_modules/@react-native-community/push-notification-ios'
+
+  pod 'RNFBMessaging', :path => '../../../node_modules/@react-native-firebase/messaging'
+
+  target 'ZoomNotaryTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  use_native_modules!
+end
+
+target 'ZoomNotary-tvOS' do
+  # Pods for ZoomNotary-tvOS
+
+  target 'ZoomNotary-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+post_install do |installer|
+  ## Fix for XCode 12.5
+  find_and_replace("../node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm",
+  "_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules", "_initializeModules:(NSArray<Class> *)modules")
+  find_and_replace("../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+  "RCTBridgeModuleNameForClass(module))", "RCTBridgeModuleNameForClass(Class(module)))")
+  find_and_replace("../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+  "RCTBridgeModuleNameForClass(strongModule))", "RCTBridgeModuleNameForClass(Class(strongModule)))")
+  find_and_replace("../../../node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm",
+  "_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules", "_initializeModules:(NSArray<Class> *)modules")
+  find_and_replace("../../../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+  "RCTBridgeModuleNameForClass(module))", "RCTBridgeModuleNameForClass(Class(module)))")
+  find_and_replace("../../../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+  "RCTBridgeModuleNameForClass(strongModule))", "RCTBridgeModuleNameForClass(Class(strongModule)))")
+  find_and_replace("../../../node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m",
+  "_currentFrame.CGImage;","_currentFrame.CGImage ;} else { [super displayLayer:layer];")
+
+  installer.pods_project.targets.each do |target|
+    # Make it build with XCode 14
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+    # Make it work with GoogleDataTransport
+    if target.name.start_with? "GoogleDataTransport"
+      target.build_configurations.each do |config|
+        config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO' 
+      end
+    end
+  end
+
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+    end
+  end
+
+  react_native_post_install(
+    installer,
+    "../../../node_modules/react-native",
+    # Set `mac_catalyst_enabled` to `true` in order to apply patches
+    # necessary for Mac Catalyst builds
+    :mac_catalyst_enabled => false
+  )
+  __apply_Xcode_12_5_M1_post_install_workaround(installer)
+end
+
+def find_and_replace(dir, findstr, replacestr)
+  Dir[dir].each do |name|
+      text = File.read(name)
+      replace = text.gsub(findstr,replacestr)
+      if text != replace
+          puts "Fix: " + name
+          File.open(name, "w") { |file| file.puts replace }
+          STDOUT.flush
+      end
+  end
+  Dir[dir + '*/'].each(&method(:find_and_replace))
+  
+  bitcode_strip_path = `xcrun --find bitcode_strip`.chop!
+  def strip_bitcode_from_framework(bitcode_strip_path, framework_relative_path)
+    framework_path = File.join(Dir.pwd, framework_relative_path)
+    command = "#{bitcode_strip_path} #{framework_path} -r -o #{framework_path}"
+    puts "Stripping bitcode: #{command}"
+    system(command)
+  end
+  
+  # To delete bitcode duplicate and uncomment out line whos pathing matches LibraryA or LibraryB then replace LibraryA or LibraryB with libraries name.
+  framework_paths = [
+    # "Pods/LibraryA/LibraryA/dynamic/LibraryA.xcframework/ios-arm64_armv7/LibraryA.framework/LibraryA",
+    # "Pods/LibraryB/LibraryB.xcframework/ios-arm64_armv7/LibraryB.framework/LibraryB"
+    "Pods/RadarSDK/dist/RadarSDK.xcframework/ios-arm64_armv7/RadarSDK.framework/RadarSDK",    
+  ]
+  
+  framework_paths.each do |framework_relative_path|
+    strip_bitcode_from_framework(bitcode_strip_path, framework_relative_path)
+  end
+
+end

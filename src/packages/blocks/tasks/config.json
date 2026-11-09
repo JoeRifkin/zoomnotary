@@ -1,0 +1,141 @@
+{
+  "id": "tasks",
+  "version": "2.1.4",
+  "status": "preAlpha",
+  "path": "./packages/blocks/tasks",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Tasks",
+      "TaskList",
+      "Task"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-datepicker\": \"^1.7.2\""
+    ],
+    "catalog-dependencies": [
+      "accountgroups"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-datepicker\": \"^1.7.0\""
+    ],
+    "merge-engine-screens": {
+      "Tasks": {
+        "file": "Tasks.tsx",
+        "extends": "TasksController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TasksController",
+            "path": "./TasksController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TasksController"
+          }
+        ]
+      }
+    },
+    "TaskList": {
+      "file": "TaskList.tsx",
+      "extends": "TaskListController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "TaskListController",
+          "path": "./TaskListController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./TaskListController"
+        }
+      ]
+    },
+    "Task": {
+      "file": "Task.tsx",
+      "extends": "TaskController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "TaskController",
+          "path": "./TaskController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./TaskController"
+        }
+      ]
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Tasks",
+      "TaskList",
+      "Task"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-datepicker\": \"^1.7.2\""
+    ],
+    "catalog-dependencies": [
+      "accountgroups"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-datepicker\": \"^1.7.0\""
+    ],
+    "merge-engine-screens": {
+      "Tasks": {
+        "file": "Tasks.web.tsx",
+        "extends": "TasksController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TasksController",
+            "path": "./TasksController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TasksController"
+          }
+        ]
+      }
+    },
+    "TaskList": {
+      "file": "TaskList.web.tsx",
+      "extends": "TaskListController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "TaskListController",
+          "path": "./TaskListController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./TaskListController"
+        }
+      ]
+    },
+    "Task": {
+      "file": "Task.web.tsx",
+      "extends": "TaskController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "TaskController",
+          "path": "./TaskController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./TaskController"
+        }
+      ]
+    }
+  }
+}

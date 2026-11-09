@@ -1,0 +1,53 @@
+{
+  "id": "GooglePayIntegration",
+  "version": "6.0.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/googlepayintegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-google-pay\": \"^2.1.0\"",
+      "\"react-native-elements\": \"3.4.0\"",
+      "\"react-native-simple-radio-button\": \"2.7.4\"",
+      "\"@types/react-native-simple-radio-button\": \"2.7.2\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-google-pay\": \"^2.1.0\"",
+      "\"react-native-elements\": \"3.4.0\"",
+      "\"react-native-simple-radio-button\": \"2.7.4\"",
+      "\"@types/react-native-simple-radio-button\": \"2.7.2\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "certificationType": "lite",
+  "assembler-file-alias": {
+    "webConfigOverrides": "src/packages/web/config-overrides.js"
+  },
+  "assembler-boilerplate": {
+    "webConfigOverrides": {
+      "appIncludes": {
+        "modifications": [
+          "resolveApp('../../node_modules/react-native-elements'),"
+        ],
+        "merge-strategy": "deduplication"
+      }
+    }
+  }
+}

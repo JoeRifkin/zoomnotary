@@ -1,0 +1,68 @@
+{
+  "name": "Tasks",
+  "id": "tasks",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "2.1.4",
+  "pages": [
+    {
+      "tasks": {
+        "hotspots": [
+          {
+            "type": "input",
+            "id": "txtInput",
+            "options": [
+              "mandatory",
+              "enabled"
+            ]
+          },
+          {
+            "type": "input",
+            "id": "btnShowHide",
+            "options": [
+              "mandatory",
+              "enabled"
+            ]
+          },
+          {
+            "type": "output",
+            "id": "txtSaved",
+            "options": []
+          },
+          {
+            "type": "navigation",
+            "id": "btnNavigateToGroup",
+            "options": [
+              "target",
+              "navigateToGroup",
+              "navigationType",
+              "enabled"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "Task": {
+        "label": "Task"
+      }
+    },
+    {
+      "TaskList": {
+        "label": "TaskList"
+      }
+    },
+    {
+      "Tasks": {
+        "label": "Tasks"
+      }
+    }
+  ]
+}

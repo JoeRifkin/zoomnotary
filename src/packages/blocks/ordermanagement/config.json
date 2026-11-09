@@ -1,0 +1,71 @@
+{
+  "id": "OrderManagement",
+  "version": "3.0.4",
+  "status": "",
+  "path": "./packages/blocks/order-management",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OrderManagement"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-star-rating\": \"^1.1.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "catalogue"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Ordermanagement": {
+        "file": "OrderManagement.tsx",
+        "extends": "OrderManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OrderManagementController",
+            "path": "./OrderManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OrderManagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OrderManagement"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-star-rating\": \"^1.1.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "catalogue"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OrdermanagementBlock": {
+        "file": "OrderManagementBlock.tsx",
+        "extends": "OrderManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OrderManagementController",
+            "path": "./OrderManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OrderManagementController"
+          }
+        ]
+      }
+    }
+  }
+}

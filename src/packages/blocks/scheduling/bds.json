@@ -1,0 +1,20 @@
+{
+  "name": "scheduling",
+  "id": "scheduling",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "1.1.4",
+  "pages": [],
+  "mobile": [
+    {
+      "Scheduling": {
+        "label": "Scheduling"
+      }
+    }
+  ]
+}
